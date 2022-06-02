@@ -1,13 +1,9 @@
 Create stateless NGINX application
 ==================================
 
-What: 
+Objective: Create an NGINX application, verify its working, exec, and gather logs.
 
-Show me the nginx logs
-Connect to the container
-Show me the pod is up
-
-Why: 
+Why: Before we can provide value protecting and delivering users to an applications we need to understand what an application comprises. 
 
 How:
 

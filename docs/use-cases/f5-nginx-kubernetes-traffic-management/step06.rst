@@ -1,7 +1,7 @@
 Kubernetes Load Balancer
 ========================
 
-What: 
+Objective: 
 
 Why: 
 

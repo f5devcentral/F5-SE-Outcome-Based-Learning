@@ -1,7 +1,7 @@
 F5 NGINX Kubernetes Ingress
 ===========================
 
-What: 
+Objective: 
 
 Install Nginx ingress
 Show the dashboard

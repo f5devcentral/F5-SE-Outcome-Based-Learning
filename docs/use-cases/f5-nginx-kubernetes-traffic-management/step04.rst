@@ -1,7 +1,7 @@
 Kubernetes Nodes and Namespaces
 ===============================
 
-What:
+Objective: Utilize kubectl to create a namespace and describe a node.
 
 Node:
 
@@ -11,11 +11,16 @@ Node:
   
   The components on a node include the kubelet, a container runtime, and the kube-proxy.
 
+  Source: https://kubernetes.io/docs/concepts/architecture/nodes/
+
 Namespaces:
 
   In Kubernetes, namespaces provides a mechanism for isolating groups of resources within a single cluster. Names of resources need to be unique within a namespace, but not across namespaces.   Namespace-based scoping is applicable only for namespaced objects (e.g. Deployments, Services, etc) and not for cluster-wide objects (e.g. StorageClass, Nodes, PersistentVolumes, etc).
 
-Why:
+  Source: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
+
+Why: F5 solutions will require the knowledge of namespaces, for discovery of resources, and to isolate resources. Customers will use namespaces in a variety of ways, form environments to applications. Node understanding comes for licenseing, F5 NGINX can be licensed on the number of pods in a deployment or the number of nodes in a cluster.
+
 
 How:
 
