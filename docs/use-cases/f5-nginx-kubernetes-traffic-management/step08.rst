@@ -1,10 +1,31 @@
-F5 NGINX Kubernetes Traffic Management
-======================================
+F5 NGINX Kubernetes Ingress
+===========================
 
-Objective: 
+NGINX Plus includes a real-time activity monitoring interface that provides key load and performance metrics. Using a simple RESTful JSON interface, it is very easy to connect these stats to live dashboards and third-party monitoring tools.
 
-Why: 
+Source: https://www.nginx.com/products/nginx/live-activity-monitoring/
 
-Kubernetes, by default, does not provide necessary advanced layer 7 load balancing services, path-based service routing, encryption, authentication, or rate limiting to securely and flexibly  expose its applications to external environments. Additionally,  at production scale, the challenges and complexity of managing routing and securing traffic into a Kubernetes cluster is a pervasive threat to application and mission success.The NGINX  solution reduces complexity and provides highly scalable advanced traffic management, visibility,  and built-in  security for your Kubernetes infrastructure. 
+Live Example: https://demo.nginx.com/
 
-How:
+The ngx_http_api_module module (1.13.3) provides REST API for accessing various status information, configuring upstream server groups on-the-fly, and managing key-value pairs without the need of reconfiguring nginx.
+
+Source: https://nginx.org/en/docs/http/ngx_http_api_module.html
+
+Live Example: https://demo.nginx.com/swagger-ui/
+
+|image03|
+
+**Objective**: 
+
+Show the NGINX Plus Dashboard and API
+
+**Why**: 
+
+**How**:
+
+NGINX Ingress Controller Dashboard and API:
+  - https://docs.nginx.com/nginx-ingress-controller/logging-and-monitoring/status-page/
+
+.. |image01| image:: images/image03.png
+  :width: 50%
+  :align: middle

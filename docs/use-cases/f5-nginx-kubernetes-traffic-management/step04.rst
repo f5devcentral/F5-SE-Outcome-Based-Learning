@@ -1,7 +1,7 @@
 Kubernetes Nodes and Namespaces
 ===============================
 
-Objective: Utilize kubectl to create a namespace and describe a node.
+**Objective**: Utilize kubectl to create a namespace and describe a node.
 
 Node:
 
@@ -19,10 +19,10 @@ Namespaces:
 
   Source: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
 
-Why: F5 solutions will require the knowledge of namespaces, for discovery of resources, and to isolate resources. Customers will use namespaces in a variety of ways, form environments to applications. Node understanding comes for licenseing, F5 NGINX can be licensed on the number of pods in a deployment or the number of nodes in a cluster.
+**Why**: F5 solutions will require the knowledge of namespaces, for discovery of resources, and to isolate resources. Customers will use namespaces in a variety of ways, form environments to applications. Node understanding comes for licenseing, F5 NGINX can be licensed on the number of pods in a deployment or the number of nodes in a cluster. AspenMesh is licensed by the number of clusters, BIG-IP and F5XC do not currently care about cluster sizing or nodes for licenses.
 
 
-How:
+**How**:
 
 Describe Kubernetes Nodes:
   - https://kubernetes.io/docs/concepts/architecture/nodes/

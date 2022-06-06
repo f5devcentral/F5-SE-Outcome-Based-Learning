@@ -1,12 +1,16 @@
 F5 NGINX Kubernetes Ingress
 ===========================
 
-Objective: 
+**Objective**: 
 
 Install Nginx ingress
-Show the dashboard
-Show me the API
 
-Why: 
+|image02|
 
-How:
+**Why**: 
+
+**How**:
+
+.. |image02| image:: images/image01.png
+  :width: 50%
+  :align: middle

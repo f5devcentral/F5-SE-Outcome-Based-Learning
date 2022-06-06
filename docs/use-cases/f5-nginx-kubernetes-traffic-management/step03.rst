@@ -5,11 +5,11 @@ Managed Kubernetes is when third-party providers take over responsibility for so
 
 Source: https://www.computer.org/publications/tech-news/trends/what-you-need-to-know-about-managed-kubernetes-platforms
 
-Objective: Create a managed kubernetes cluster
+**Objective**: Create a managed kubernetes cluster
 
-Why: Knowledge about the underpinnings of raw kubernetes are important, but not necessary for day-to-day engineers. Most companies have also adopted this mentality and offload the work of kubernetes management to a service (AKS,EKS,GKE,Rancher, and OpenShift). 
+**Why**: Knowledge about the underpinnings of raw kubernetes are important, but not necessary for day-to-day engineers. Most companies have also adopted this mentality and offload the work of kubernetes management to a service (AKS,EKS,GKE,Rancher, and OpenShift). 
 
-How:
+**How**:
 
 Build a managed k8s cluster:
   - Azure: https://docs.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-portal
