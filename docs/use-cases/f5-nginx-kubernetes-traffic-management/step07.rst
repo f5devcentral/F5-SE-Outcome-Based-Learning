@@ -3,7 +3,7 @@ F5 NGINX Kubernetes Ingress
 
 **Objective**: 
 
-Install Nginx ingress
+Install Nginx Plus ingress
 
 |image02|
 

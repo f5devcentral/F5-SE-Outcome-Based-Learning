@@ -1,5 +1,5 @@
-F5 NGINX Kubernetes Ingress
-===========================
+F5 NGINX Kubernetes Ingress real-time activity and API
+======================================================
 
 NGINX Plus includes a real-time activity monitoring interface that provides key load and performance metrics. Using a simple RESTful JSON interface, it is very easy to connect these stats to live dashboards and third-party monitoring tools.
 
