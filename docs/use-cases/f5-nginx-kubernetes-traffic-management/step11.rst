@@ -15,3 +15,8 @@ The NGINX  solution reduces complexity and provides highly scalable advanced tra
 
 Custom-Resource Examples:
   - https://github.com/nginxinc/kubernetes-ingress/tree/main/examples/custom-resources
+
+Solution Specific Examples:
+  - Basic Configuration: https://github.com/nginxinc/kubernetes-ingress/tree/main/examples/custom-resources/basic-configuration
+  - Advanced Routing: https://github.com/nginxinc/kubernetes-ingress/tree/main/examples/custom-resources/advanced-routing
+  - Traffic Splitting: https://github.com/nginxinc/kubernetes-ingress/tree/main/examples/custom-resources/traffic-splitting

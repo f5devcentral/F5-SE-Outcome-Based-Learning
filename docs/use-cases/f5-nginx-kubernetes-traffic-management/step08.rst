@@ -7,7 +7,7 @@ Generate NGINX Trial
 
 **Why**: 
 
-Trials and demos should be done with the commercial version of NGINX (Plus), this places our best solution forward. 
+Trials and demos should be done with the commercial version of NGINX (Plus), this places the best solution forward. 
 
 **How**:
 
