@@ -19,7 +19,7 @@ NGINX Ingress Controller provides a robust feature set to secure, strengthen, an
 
   NGINX Ingress resources - A native, type-safe, and indented configuration style to simplify capabilities like circuit breaking, sophisticated routing, header manipulation, mTLS authentication, and WAF. 
   
-Plus if you're already using NGINX, NGINX Ingress resources make it easy to adapt existing configuration from your other environments.
+Plus if you are already using NGINX, NGINX Ingress resources make it easy to adapt existing configuration from your other environments.
 
 Source: https://www.nginx.com/products/nginx-ingress-controller/
 

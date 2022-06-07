@@ -21,7 +21,7 @@ Source: https://en.wikipedia.org/wiki/Outcome-based_education
    :caption: Use Cases
 
    /docs/use-cases/f5-nginx-kubernetes-traffic-management/index
-   /docs/use-cases/manage-microservices-apis–api-traffic-management-and-security/index
+   /docs/use-cases/manage-microservices-apis-api-traffic-management-and-security/index
 
 .. toctree::
    :maxdepth: 1
