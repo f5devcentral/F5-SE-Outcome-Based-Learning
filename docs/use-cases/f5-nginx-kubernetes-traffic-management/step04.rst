@@ -1,31 +1,32 @@
-Kubernetes Nodes and Namespaces
-===============================
+Container Registry
+==================
 
-**Objective**: Utilize kubectl to create a namespace and describe a node.
+**Objective**: Create a container registry 
 
-Node:
+A container registry is a repository—or collection of repositories—used to store and access container images. Container registries can support container-based application development, often as part of DevOps processes. Container registries can connect directly to container orchestration platforms like Docker and Kubernetes. 
 
-  Kubernetes runs your workload by placing containers into Pods to run on Nodes. A node may be a virtual or physical machine, depending on the cluster. Each node is managed by the control plane   and contains the services necessary to run Pods.
-  
-  Typically you have several nodes in a cluster; in a learning or resource-limited environment, you might have only one node.
-  
-  The components on a node include the kubelet, a container runtime, and the kube-proxy.
+Container registries save developers valuable time in the creation and delivery of cloud-native applications, acting as the intermediary for sharing container images between systems.
 
-  Source: https://kubernetes.io/docs/concepts/architecture/nodes/
+Source: https://www.redhat.com/en/topics/cloud-native-apps/what-is-a-container-registry
 
-Namespaces:
-
-  In Kubernetes, namespaces provides a mechanism for isolating groups of resources within a single cluster. Names of resources need to be unique within a namespace, but not across namespaces.   Namespace-based scoping is applicable only for namespaced objects (e.g. Deployments, Services, etc) and not for cluster-wide objects (e.g. StorageClass, Nodes, PersistentVolumes, etc).
-
-  Source: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
-
-**Why**: F5 solutions will require the knowledge of namespaces, for discovery of resources, and to isolate resources. Customers will use namespaces in a variety of ways, form environments to applications. Node understanding comes for licenseing, F5 NGINX can be licensed on the number of pods in a deployment or the number of nodes in a cluster. AspenMesh is licensed by the number of clusters, BIG-IP and F5XC do not currently care about cluster sizing or nodes for licenses.
-
+**Why**: NGINX Ingress can be pulled from the NGINX registry only with a production license. For demo licenses a container registry is required to store the image after creation.
 
 **How**:
 
-Describe Kubernetes Nodes:
-  - https://kubernetes.io/docs/concepts/architecture/nodes/
+Azure:
+  Create container registry
+    - https://docs.microsoft.com/en-us/azure/container-registry/container-registry-get-started-portal
+  Link AKS and ACR
+    - https://docs.microsoft.com/en-us/azure/aks/cluster-container-registry-integration?tabs=azure-cli#configure-acr-integration-for-existing-aks-clusters
 
-Create Development Namespace:
-  - https://kubernetes.io/docs/tasks/administer-cluster/namespaces-walkthrough/
+AWS: 
+  Create container registry
+    - https://docs.aws.amazon.com/AmazonECR/latest/userguide/getting-started-console.html
+  Link EKS and ECR
+    - https://docs.aws.amazon.com/AmazonECR/latest/userguide/ECR_on_EKS.html
+
+Google:
+  Create artifact registry
+    - https://cloud.google.com/artifact-registry/docs/docker/store-docker-container-images
+  Link GKE and Google artifact registry
+    - https://cloud.google.com/artifact-registry/docs/integrate-gke

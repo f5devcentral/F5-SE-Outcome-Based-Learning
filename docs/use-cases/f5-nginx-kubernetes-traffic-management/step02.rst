@@ -1,5 +1,7 @@
-Create a cloud construct
-========================
+Cloud Construct
+===============
+
+**Objective**: Create an environment where a managed kubernetes can be deployed
 
 Azure:
   A resource group is a container that holds related resources for an Azure solution. The resource group can include all the resources for the solution, or only those resources that you   want to manage as a group. You decide how you want to allocate resources to resource groups based on what makes the most sense for your organization. Generally, add resources that share   the same lifecycle to the same resource group so you can easily deploy, update, and delete them as a group.
@@ -17,8 +19,6 @@ Google:
   Virtual Private Cloud (VPC) provides networking functionality to Compute Engine virtual machine (VM) instances, Google Kubernetes Engine (GKE) clusters, and the App Engine flexible environment. VPC provides networking for your cloud-based resources and services that is global, scalable, and flexible.
 
   Source: https://cloud.google.com/vpc/docs/overview
-
-**Objective**: Create an environment where a managed kubernetes can be deployed
 
 **Why**: Access to a cloud doesnt mean created resources. After access is provided consumers need to create or subscribe to services. Clouds call these different things, usally a VPC or Resource Group.
 

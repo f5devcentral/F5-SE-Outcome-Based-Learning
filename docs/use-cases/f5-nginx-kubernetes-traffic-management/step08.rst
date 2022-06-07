@@ -1,16 +1,14 @@
-F5 NGINX Kubernetes Ingress
-===========================
+NGINX Trial
+===========
 
 **Objective**: 
 
-Install Nginx Plus ingress
-
-|image02|
+Generate NGINX Trial
 
 **Why**: 
 
+Trials and demos should be done with the commercial version of NGINX (Plus), this places our best solution forward. 
+
 **How**:
 
-.. |image02| image:: images/image01.png
-  :width: 50%
-  :align: middle
+Search F5 SharePoint for "Generating NGINX Trials in Salesforce"

@@ -1,5 +1,5 @@
-Access a Public Cloud 
-=====================
+Public Cloud Access
+===================
 
 **Outcome**: Login to a public cloud account
 
