@@ -11,4 +11,4 @@ Trials and demos should be done with the commercial version of NGINX (Plus), thi
 
 **How**:
 
-Search F5 SharePoint for "Generating NGINX Trials in Salesforce"
+Search F5 SharePoint for **Generating NGINX Trials in Salesforce**

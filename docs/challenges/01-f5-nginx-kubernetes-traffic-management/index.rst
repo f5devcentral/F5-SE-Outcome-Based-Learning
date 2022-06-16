@@ -7,4 +7,4 @@ Take your Kubernetes clusters into production with confidence and keep them ther
    :maxdepth: 1
    :glob:
 
-   step*
+   challenge*

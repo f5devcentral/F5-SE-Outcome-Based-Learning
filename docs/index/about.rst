@@ -1,3 +1,6 @@
-F5 SE Objective-based Learning - About
-======================================
+About
+=====
 
+Still working out the details
+
+- Jon, Yossi, and Garland

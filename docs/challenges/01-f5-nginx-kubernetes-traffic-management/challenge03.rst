@@ -3,7 +3,7 @@ Managed Kubernetes Cluster
 
 **Objective**: Create a managed kubernetes cluster
 
-Managed Kubernetes is when third-party providers take over responsibility for some or all of the work necessary for the successful set-up and operation of K8s. Depending on the vendor, “managed” can refer to anything from dedicated support, to hosting with pre-configured environments, to full hosting and operation.
+Managed Kubernetes is when third-party providers take over responsibility for some or all of the work necessary for the successful set-up and operation of K8s. Depending on the vendor, *managed* can refer to anything from dedicated support, to hosting with pre-configured environments, to full hosting and operation.
 
 Kubernetes already includes an impressive set of features, including scalability, detached credential configuration, self-recovery, workload management and batch execution, and progressive application deployment, but they require significant manual configuration. Managed solutions take care of much of this configuration for you, or at least guide you through the decision-making process. 
 

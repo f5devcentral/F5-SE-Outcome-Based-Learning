@@ -7,4 +7,4 @@ APIs constitute a key foundational pillar of digital transformation. APIs help l
    :maxdepth: 1
    :glob:
 
-   step*
+   challenge*
