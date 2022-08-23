@@ -26,7 +26,8 @@ Source: https://en.wikipedia.org/wiki/Outcome-based_education
    :maxdepth: 1
    :caption: Challenges
 
-   /docs/challenges/nginx*/index
+   /docs/challenges/nginx-kubernetes-application/index
+   /docs/challenges/nginx-kubernetes-traffic-management/index
 
 .. toctree::
    :maxdepth: 1
