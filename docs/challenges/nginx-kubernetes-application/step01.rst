@@ -1,5 +1,5 @@
-Stateless NGINX application
-===========================
+NGINX kubernetes application
+============================
 
 **Objective**: Create an NGINX application, verify its working, exec, and gather logs.
 

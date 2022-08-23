@@ -3,7 +3,7 @@ Kubernetes Load Balancer
 
 **Objective**: Create a cloud provider Load Balancer for the NGINX application
 
-On cloud providers which support external load balancers, setting the type field to LoadBalancer provisions a load balancer for your Service. The actual creation of the load balancer happens asynchronously, and information about the provisioned balancer is published in the Services .status.loadBalancer field. For example:
+On cloud providers which support external load balancers, setting the type field to LoadBalancer provisions a load balancer for your Service. The actual creation of the load balancer happens asynchronously, and information about the provisioned balancer is published in the Services .status.loadBalancer field.
 
 Traffic from the external load balancer is directed at the backend Pods. The cloud provider decides how it is load balanced.
 
@@ -15,8 +15,6 @@ Source: https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-i
 
 **How**:
   - https://kubernetes.io/docs/concepts/services-networking/service/#loadbalancer
-
-
 
 .. |image01| image:: images/image01.png
   :width: 25%
