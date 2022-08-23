@@ -18,10 +18,15 @@ Source: https://en.wikipedia.org/wiki/Outcome-based_education
 
 .. toctree::
    :maxdepth: 1
+   :caption: Base Environment
+
+   /docs/base/environment/index
+
+.. toctree::
+   :maxdepth: 1
    :caption: Challenges
 
-   /docs/challenges/01-f5-nginx-kubernetes-traffic-management/index
-   /docs/challenges/02-manage-microservices-apis–api-traffic-management-and-security/index
+   /docs/challenges/nginx*/index
 
 .. toctree::
    :maxdepth: 1
