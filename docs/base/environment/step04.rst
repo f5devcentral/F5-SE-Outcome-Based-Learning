@@ -1,5 +1,5 @@
-Cloud Construct
-===============
+Install software on virtual machines
+====================================
 
 **Objective**: Install software on virtual machines
 

@@ -1,5 +1,5 @@
-Cloud Construct
-===============
+Create a pair of virtual machines
+=================================
 
 **Objective**: Create a pair of virtual machines
 

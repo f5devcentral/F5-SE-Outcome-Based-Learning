@@ -1,5 +1,5 @@
-Cloud Construct
-===============
+Expose virtual machine applications
+===================================
 
 **Objective**: Expose virtual machine applications
 
