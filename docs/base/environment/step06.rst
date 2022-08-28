@@ -1,5 +1,5 @@
-Managed Kubernetes Cluster
-==========================
+Optional - Managed Kubernetes Cluster
+=====================================
 
 **Objective**: Create a managed kubernetes cluster
 

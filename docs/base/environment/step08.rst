@@ -1,5 +1,5 @@
-Kubernetes Nodes and Namespaces
-===============================
+Optional - Kubernetes Nodes and Namespaces
+==========================================
 
 **Objective**: Utilize kubectl to create a namespace and describe a node.
 

@@ -1,5 +1,5 @@
-Container Registry
-==================
+Optional - Container Registry
+=============================
 
 **Objective**: Create a container registry 
 
