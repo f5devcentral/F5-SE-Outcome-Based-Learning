@@ -16,8 +16,8 @@ Source: https://www.computer.org/publications/tech-news/trends/what-you-need-to-
 **How**:
 
 Create a managed k8s cluster:
-  - Azure: https://docs.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-portal
+  - Microsoft Azure: https://docs.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-portal
   
-  - AWS: https://docs.aws.amazon.com/eks/latest/userguide/create-cluster.html
+  - Amazon Web Services: https://docs.aws.amazon.com/eks/latest/userguide/create-cluster.html
   
-  - Google: https://cloud.google.com/kubernetes-engine/docs/deploy-app-cluster
+  - Google Cloud Platform: https://cloud.google.com/kubernetes-engine/docs/deploy-app-cluster

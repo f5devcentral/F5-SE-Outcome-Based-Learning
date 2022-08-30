@@ -13,19 +13,19 @@ Source: https://www.redhat.com/en/topics/cloud-native-apps/what-is-a-container-r
 
 **How**:
 
-Azure:
+Microsoft Azure:
   Create container registry
     - https://docs.microsoft.com/en-us/azure/container-registry/container-registry-get-started-portal
   Link AKS and ACR
     - https://docs.microsoft.com/en-us/azure/aks/cluster-container-registry-integration?tabs=azure-cli#configure-acr-integration-for-existing-aks-clusters
 
-AWS: 
+Amazon Web Services: 
   Create container registry
     - https://docs.aws.amazon.com/AmazonECR/latest/userguide/getting-started-console.html
   Link EKS and ECR
     - https://docs.aws.amazon.com/AmazonECR/latest/userguide/ECR_on_EKS.html
 
-Google:
+Google Cloud Platform:
   Create artifact registry
     - https://cloud.google.com/artifact-registry/docs/docker/store-docker-container-images
   Link GKE and Google artifact registry

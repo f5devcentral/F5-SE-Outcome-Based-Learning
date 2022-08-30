@@ -7,11 +7,11 @@ Public Cloud Access
 
 **How**: Public cloud access is provided through a ServiceNow request
 
-Azure: 
+Microsoft Azure: 
   - Accessed directly through https://portal.azure.com
 
-AWS: 
+Amazon Web Services: 
   - Accessed through https://myapplications.microsoft.com > Technology Services
 
-Google: 
+Google Cloud Platform: 
   - Access directly through https://console.cloud.google.com/
