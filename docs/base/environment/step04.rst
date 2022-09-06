@@ -1,26 +1,16 @@
-Install software on virtual machines
+Install application on virtual machines
 ====================================
 
-**Objective**: Install software on virtual machines
+**Objective**: Install an application on virtual machines
 
-Microsoft Azure:
-  -
+Install the Juiceshop application with the 14.1.1 version on the two VM instances previously created 
 
-Amazon Web Services: 
-  -
-
-Google Cloud Platform:
-  -
-  
 **Why**: 
+Juiceshop application will be used as the demo application. we will later expose it to customers on the internet, manage traffic and protect it. 
+
 
 **How**:
 
-Microsoft Azure:
-  - 
+https://github.com/juice-shop/juice-shop 
 
-Amazon Web Services:
-  - 
-
-Google Cloud Platform:
-  - 
+Version v14.1.1 

@@ -1,26 +1,9 @@
-Expose virtual machine applications
+Expose the application
 ===================================
 
-**Objective**: Expose virtual machine applications
-
-Microsoft Azure:
-  -
-
-Amazon Web Services: 
-  -
-
-Google Cloud Platform:
-  -
+**Objective**: Expose the application 
   
-**Why**: 
+**Why**: it's a lot easier to get customers to your e-shop if they can actually access it  
 
 **How**:
-
-Microsoft Azure:
-  - 
-
-Amazon Web Services:
-  - 
-
-Google Cloud Platform:
-  - 
+Leverage the platform native tools to expose the app 
