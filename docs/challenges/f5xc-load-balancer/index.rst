@@ -14,6 +14,7 @@ In this exercise you will be solving the following common problems using XC (RE 
 - Protect your site from application vulnerabilites using XC WAF
 - Increase collobartion between secops and application teams
 - Accelerate your site performance using CDN  
+- Block non-compliant values in the XFF header
 
 
 .. toctree::
