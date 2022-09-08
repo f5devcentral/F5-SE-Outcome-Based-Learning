@@ -1,5 +1,5 @@
 Load balance traffic to your two application servers
-============================
+====================================================s
 
 **Objective**: Load balance traffic to your two application servers
 
@@ -9,7 +9,7 @@ requirements:
 
 - Application must get the original client ip as an HTTP header 
 
-**Why**: Scaling application traffic, high availalbity ,progressive application version updates
+**Why**: Scaling application traffic, high availability ,progressive application version updates
 
 **How**: 
 
