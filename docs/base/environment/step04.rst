@@ -21,4 +21,4 @@ Source: https://owasp.org/www-project-juice-shop/
 
 https://github.com/juice-shop/juice-shop 
 
-..Note:: Version v14.1.1 
+.. note:: Version v14.1.1 

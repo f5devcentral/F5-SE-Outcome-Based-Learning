@@ -3,7 +3,7 @@ Optional - Container Registry
 
 **Objective**: Create a container registry 
 
-A container registry is a repository—or collection of repositories—used to store and access container images. Container registries can support container-based application development, often as part of DevOps processes. Container registries can connect directly to container orchestration platforms like Docker and Kubernetes. 
+A container registry is a *repository or collection of repositories used* to store and access container images. Container registries can support container-based application development, often as part of DevOps processes. Container registries can connect directly to container orchestration platforms like Docker and Kubernetes. 
 
 Container registries save developers valuable time in the creation and delivery of cloud-native applications, acting as the intermediary for sharing container images between systems.
 

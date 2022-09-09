@@ -3,7 +3,7 @@ Cloud Construct
 
 **Objective**: Create an infrastructure as a service environment where resources can be deployed 
 
-..Notes: 
+.. note: 
 
   Environment Required Tags: 
   - All resources in the environment must be tagged with the following key:value 
