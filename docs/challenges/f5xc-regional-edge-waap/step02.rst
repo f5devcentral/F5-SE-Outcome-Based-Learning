@@ -1,5 +1,5 @@
 Load balance traffic to your two application servers
-====================================================s
+====================================================
 
 **Objective**: Load balance traffic to your two application servers
 
