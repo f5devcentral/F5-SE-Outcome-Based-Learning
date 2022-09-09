@@ -18,7 +18,7 @@ Source: https://en.wikipedia.org/wiki/Outcome-based_education
 
 .. toctree::
    :maxdepth: 1
-   :caption: Base Environment
+   :caption: Setup
 
    /docs/base/environment/index
 
@@ -26,12 +26,9 @@ Source: https://en.wikipedia.org/wiki/Outcome-based_education
    :maxdepth: 1
    :caption: Challenges
 
-   /docs/challenges/f5xc-load-balancer/index
-   /docs/challenges/f5xc-hybrid-load-balancer/index
-   /docs/challenges/f5xc-customer-load-balancer/index
+   /docs/challenges/f5xc-regional-edge-waap/index
    /docs/challenges/nginx-kubernetes-traffic-management/index
    /docs/challenges/nginx-kubernetes-application/index
-   /docs/challenges/bigip-load-balancer/index
 
 .. toctree::
    :maxdepth: 1

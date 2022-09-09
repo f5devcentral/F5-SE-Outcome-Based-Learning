@@ -1,29 +1,27 @@
 Cloud Construct
 ===============
 
-**Objective**: Create an 'infrastructure as a service' environment where resources can be deployed 
+**Objective**: Create an infrastructure as a service environment where resources can be deployed 
 
-Requirements: 
+..Notes: 
 
-Tags: 
-- All resources in the environemnt must be tagged with the following key:value 
-  - Owner: <f5 email address> 
-  - Application: <SE-OBT-yourname>
-
-Networking: 
-- Subnet that supports public internet connectivity (Public subnet)
-- Private subnet (no internet connectivity)
-- Management subnet with internet connectivity 
-
-Documentation:
-- Document all resources so they can be deleted when you are done 
-
-
+  Environment Required Tags: 
+  - All resources in the environment must be tagged with the following key:value 
+    - Owner: <f5 email address> 
+    - Application: <SE-OBT-yourname>
+  
+  Environment networking should include: 
+  - Public subnet - Internet Connectivity
+  - Private subnet - No Internet Connectivity
+  - Management subnet - Internet Connectivity
+  
+  Documentation:
+  - Infrastructure as code documentation should be gathered for recreation. F5XC, and other major Cloud Service Providers share code to recreate resources, saving these will lead to quicker recreation after deletion.
 
 Microsoft Azure:
-  A resource group is a container that holds related resources for an Azure solution. The resource group can include all the resources for the solution, or only those resources that you   want to manage as a group. You decide how you want to allocate resources to resource groups based on what makes the most sense for your organization. Generally, add resources that share   the same lifecycle to the same resource group so you can easily deploy, update, and delete them as a group.
+  A resource group is a container that holds related resources for an Azure solution. The resource group can include all the resources for the solution, or only those resources that you want to manage as a group. You decide how you want to allocate resources to resource groups based on what makes the most sense for your organization. Generally, add resources that share the same lifecycle to the same resource group so you can easily deploy, update, and delete them as a group.
   
-  The resource group stores metadata about the resources. Therefore, when you specify a location for the resource group, you are specifying where that metadata is stored. For compliance   reasons, you may need to ensure that your data is stored in a particular region.
+  The resource group stores metadata about the resources. Therefore, when you specify a location for the resource group, you are specifying where that metadata is stored. For compliance reasons, you may need to ensure that your data is stored in a particular region.
 
   Source: https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal
 
@@ -33,11 +31,11 @@ Amazon Web Services:
   Source: https://aws.amazon.com/vpc/
 
 Google Cloud Platform:
-  Virtual Private Cloud (VPC) provides networking functionality to Compute Engine virtual machine (VM) instances, Google Kubernetes Engine (GKE) clusters, and the App Engine flexible environment. VPC provides networking for your cloud-based resources and services that is global, scalable, and flexible.
+  Virtual Private Cloud (VPC) provides networking functionality to Compute Engine virtual machine (VM) instances, Google Kubernetes Engine (GKE) clusters, and the App Engine flexible environment. VPC provides networking for your cloud-based resources and services that are global, scalable, and flexible.
 
   Source: https://cloud.google.com/vpc/docs/overview
 
-**Why**: Access to a cloud doesnt mean created resources. After access is provided consumers need to create or subscribe to services. Clouds call these different things, usally a VPC or Resource Group.
+**Why**: Access to a cloud does not mean created resources. After access is provided consumers need to create or subscribe to services. Clouds call these different things, usually a VPC or Resource Group.
 
 Differences between the two: https://docs.microsoft.com/en-us/azure/architecture/aws-professional/resources
 
