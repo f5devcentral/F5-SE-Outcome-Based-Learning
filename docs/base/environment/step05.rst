@@ -7,7 +7,7 @@ Expose the application
 
 **How**: 
 
-..Warning:: Resouces hosted in CSPs exposed are security risks, Security Groups should be utilized to allow access only from trusted sources (personal internet/VPN)
+.. warning:: Resouces hosted in CSPs exposed are security risks, Security Groups should be utilized to allow access only from trusted sources (personal internet/VPN)
 
 Choose and exposure option
   - Public addresses directly on the virtual machines
