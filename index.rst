@@ -18,7 +18,7 @@ Source: https://en.wikipedia.org/wiki/Outcome-based_education
 
 .. toctree::
    :maxdepth: 1
-   :caption: Setup
+   :caption: Base Environment
 
    /docs/base/environment/index
 

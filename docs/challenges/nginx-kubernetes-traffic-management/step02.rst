@@ -13,11 +13,11 @@ Source: https://docs.nginx.com/nginx-ingress-controller/intro/overview/
 
 NGINX Ingress Controller provides a robust feature set to secure, strengthen, and scale your containerized apps, including:
 
-  Advanced app-centric configuration - Use role-based access control (RBAC) and self-service to set up security guardrails (not gates), so your teams can manage their apps securely and with agility. Enable multi-tenancy, reusability, simpler configs, and more.
+Advanced app-centric configuration - Use role-based access control (RBAC) and self-service to set up security guardrails (not gates), so your teams can manage their apps securely and with agility. Enable multi-tenancy, reusability, simpler configs, and more.
 
-  Visibility and performance monitoring - Pinpoint undesirable behaviors and performance bottlenecks to simplify troubleshooting and make fixes faster.
+Visibility and performance monitoring - Pinpoint undesirable behaviors and performance bottlenecks to simplify troubleshooting and make fixes faster.
 
-  NGINX Ingress resources - A native, type-safe, and indented configuration style to simplify capabilities like circuit breaking, sophisticated routing, header manipulation, mTLS authentication, and WAF. 
+NGINX Ingress resources - A native, type-safe, and indented configuration style to simplify capabilities like circuit breaking, sophisticated routing, header manipulation, mTLS authentication, and WAF. 
   
 Plus if you are already using NGINX, NGINX Ingress resources make it easy to adapt existing configuration from your other environments.
 
@@ -30,6 +30,9 @@ https://docs.google.com/spreadsheets/d/191WWNpjJ2za6-nbG4ZoUMXMpUK8KlCIosvQB0f-o
 |image02|
 
 **How**:
+
+Using the NGINX IC Plus JWT token in a Docker Config Secret
+  - https://docs.nginx.com/nginx-ingress-controller/installation/using-the-jwt-token-docker-secret/
 
 Building the Ingress Controller Image
   - https://docs.nginx.com/nginx-ingress-controller/installation/building-ingress-controller-image
