@@ -1,11 +1,11 @@
 Create a pair of virtual machines
 =================================
 
-**Objective**: Create a pair of virtual machines
+**Objective**: Create a pair of virtual machines to host your application 
 
 **Why**
 
-A *virtual machine* was originally defined by Popek and Goldberg as *an efficient, isolated duplicate of a real computer machine.* Current use includes virtual machines that have no direct correspondence to any real hardware. The physical, *real-world* hardware running the VM is generally referred to as the ***host***, and the virtual machine emulated on that machine is generally referred to as the ***guest***. A host can emulate several guests, each of which can emulate different operating systems and hardware platforms.
+A *virtual machine* was originally defined by Popek and Goldberg as *an efficient, isolated duplicate of a real computer machine.* Current use includes virtual machines that have no direct correspondence to any real hardware. The physical, *real-world* hardware running the VM is generally referred to as the *host*, and the virtual machine emulated on that machine is generally referred to as the *guest*. A host can emulate several guests, each of which can emulate different operating systems and hardware platforms.
 
 Reference: https://en.wikipedia.org/wiki/Virtual_machine
 

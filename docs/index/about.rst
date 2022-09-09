@@ -3,4 +3,4 @@ About
 
 Still working out the details
 
-- Jon, Yossi, and Garland
+- Jon, Yossi, Chas, Ben, and Garland
