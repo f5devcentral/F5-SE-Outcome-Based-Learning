@@ -3,20 +3,20 @@ Cloud Construct
 
 **Objective**: Create an infrastructure as a service environment where resources can be deployed 
 
-.. note: 
+Environments should include:
 
-  Environment Required Tags: 
-  - All resources in the environment must be tagged with the following key:value 
-    - Owner: <f5 email address> 
-    - Application: <SE-OBT-yourname>
-  
-  Environment networking should include: 
-  - Public subnet - Internet Connectivity
-  - Private subnet - No Internet Connectivity
-  - Management subnet - Internet Connectivity
-  
-  Documentation:
-  - Infrastructure as code documentation should be gathered for recreation. F5XC, and other major Cloud Service Providers share code to recreate resources, saving these will lead to quicker recreation after deletion.
+Required Tags: 
+- All resources in the environment must be tagged with the following key:value 
+  - Owner: <f5 email address> 
+  - Application: <SE-OBT-yourname>
+
+Required Virtual Networking: 
+- Public subnet - Internet Connectivity
+- Private subnet - No Internet Connectivity
+- Management subnet - Internet Connectivity
+
+Documentation:
+- Infrastructure as code documentation should be gathered for recreation. F5XC, and other major Cloud Service Providers share code to recreate resources, saving these will lead to quicker recreation after deletion.
 
 Microsoft Azure:
   A resource group is a container that holds related resources for an Azure solution. The resource group can include all the resources for the solution, or only those resources that you want to manage as a group. You decide how you want to allocate resources to resource groups based on what makes the most sense for your organization. Generally, add resources that share the same lifecycle to the same resource group so you can easily deploy, update, and delete them as a group.
