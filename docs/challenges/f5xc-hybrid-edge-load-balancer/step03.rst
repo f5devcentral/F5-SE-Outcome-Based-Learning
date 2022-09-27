@@ -1,9 +1,9 @@
-F5XC Customer Edge Load Balancer
-================================
+F5XC Hybrid Edge Load Balancer
+==============================
 
 **Objective**:
 
-Create an F5XC TLS Load Balancer with custom advertisement
+Create an F5XC TLS Load Balancer advertised on the F5XC backbone
 
 In this deployment scenario, the Mesh nodes need two interfaces attached. The first interface is the outside interface through which services running on the node can connect to the Internet.
 
@@ -15,7 +15,7 @@ As shown in the below figure, the outside interface is on the outside subnet whi
 
 **Why**:
 
-Application Delivery of local services is a primary use case for F5XC and other F5 products. Utilizing a local customer-edge solution provides consumers with another choice pointed in the direction of **SaaS** or **Cloud-First** strategies. A consumer can utilize the console for the creation of the infrastructure and configuration management. Upgrade/Updates are a simple push, shareable objects can be reused across different sites, and analytics are centralized.
+A Hybrid Edge Load Balancer will advertise on one or many F5XC Regional Edge, but utilize the RE to CE link for the data path. This solution allows for CE reachable services to be Globally advertised on the F5XC backbone. F5XC Regional Edges have the benefit of AnyCast advertisement, allowing consumers of applications to connect to the closest RE.
 
 **How**:
 
@@ -24,7 +24,7 @@ https://docs.cloud.f5.com/docs/how-to/advanced-app-nwg/advertise-apps-on-site-se
 
 **Validation**: 
 
-How did you access this local-only advertisement of our application? 
+What solutions could a Global disaggregation point solve? How would we create a regional failover or advertise in certain locations? Which Regional Edge location did your testing requests originate from?
 
 .. |image01| image:: docs/index/images/image01.png
    :width: 50%
