@@ -1,7 +1,9 @@
-F5XC Regional Edge WAAP Load Balancer
-=====================================
+F5XC Regional Edge Load Balancer
+================================
 
-Create a customer edge only load balancer.
+Create a regional edge only load balancer
+
+.. warning:: Challenge requires base environment
 
 .. toctree::
    :maxdepth: 1

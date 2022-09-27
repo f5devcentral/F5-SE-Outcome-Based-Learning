@@ -3,7 +3,7 @@ F5XC Customer Edge Origin Pool
 
 **Objective**:
 
-Create an Origin Pool(s) with the NGINX Application Servers.
+Create an Origin Pool(s) with the private ip addresses of the dual NGINX Application Servers
 
 **Why**:
 
@@ -12,6 +12,8 @@ Creating origin pools of servers allows for the grouping of like applications. A
 .. note:: For even more advanced choices of origins, a **Route** can be utilized on the load balancer.
 
 **How**:
+
+Create an Origin Pool:
 
 https://docs.cloud.f5.com/docs/how-to/app-networking/origin-pools
 

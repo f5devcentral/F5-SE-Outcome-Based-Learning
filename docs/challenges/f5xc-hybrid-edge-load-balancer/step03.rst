@@ -15,9 +15,11 @@ As shown in the below figure, the outside interface is on the outside subnet whi
 
 **Why**:
 
-A Hybrid Edge Load Balancer will advertise on one or many F5XC Regional Edge, but utilize the RE to CE link for the data path. This solution allows for CE reachable services to be Globally advertised on the F5XC backbone. F5XC Regional Edges have the benefit of AnyCast advertisement, allowing consumers of applications to connect to the closest RE.
+A Hybrid Edge Load Balancer will advertise on one or many F5XC Regional Edge, but utilize the RE to CE link for the data path. This solution allows for CE reachable services (regionally) to be Globally advertised on the F5XC backbone. F5XC Regional Edges have the benefit of AnyCast advertisement, allowing consumers of applications to connect to the closest RE.
 
 **How**:
+
+Create an F5XC Load Balancer:
 
 https://docs.cloud.f5.com/docs/how-to/app-networking/http-load-balancer
 https://docs.cloud.f5.com/docs/how-to/advanced-app-nwg/advertise-apps-on-site-service-network

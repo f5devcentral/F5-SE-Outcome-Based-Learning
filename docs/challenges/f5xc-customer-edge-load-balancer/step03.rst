@@ -19,6 +19,8 @@ Application Delivery of local services is a primary use case for F5XC and other 
 
 **How**:
 
+Create an F5XC Load Balancer:
+
 https://docs.cloud.f5.com/docs/how-to/app-networking/http-load-balancer
 https://docs.cloud.f5.com/docs/how-to/advanced-app-nwg/advertise-apps-on-site-service-network
 
