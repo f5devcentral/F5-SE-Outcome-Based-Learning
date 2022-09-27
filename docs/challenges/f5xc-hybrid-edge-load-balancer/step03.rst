@@ -26,5 +26,5 @@ https://docs.cloud.f5.com/docs/how-to/advanced-app-nwg/advertise-apps-on-site-se
 
 What solutions could a Global disaggregation point solve? How would we create a regional failover or advertise in certain locations? Which Regional Edge location did your testing requests originate from?
 
-.. |image01| image:: docs/index/images/image01.png
+.. |image01| image:: images/image01.png
    :width: 50%

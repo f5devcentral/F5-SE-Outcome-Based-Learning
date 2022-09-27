@@ -26,5 +26,5 @@ https://docs.cloud.f5.com/docs/how-to/advanced-app-nwg/advertise-apps-on-site-se
 
 How did you access this local-only advertisement of our application? 
 
-.. |image01| image:: docs/index/images/image01.png
+.. |image01| image:: images/image01.png
    :width: 50%
