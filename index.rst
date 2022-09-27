@@ -27,9 +27,9 @@ Source: https://en.wikipedia.org/wiki/Outcome-based_education
    :caption: Challenges
 
    /docs/challenges/f5xc-regional-edge-waap/index
+   /docs/challenges/f5xc-regional-edge-load-balancer/index
    /docs/challenges/f5xc-customer-edge-load-balancer/index
    /docs/challenges/f5xc-hybrid-edge-load-balancer/index
-   /docs/challenges/f5xc-regional-edge-load-balancer/index
    /docs/challenges/nginx-kubernetes-traffic-management/index
    /docs/challenges/nginx-kubernetes-application/index
 
