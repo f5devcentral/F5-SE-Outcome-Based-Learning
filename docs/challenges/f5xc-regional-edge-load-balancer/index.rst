@@ -3,7 +3,9 @@ F5XC Regional Edge Load Balancer
 
 Create a regional edge only load balancer
 
-.. warning:: Challenge requires base environment
+.. warning:: This challenge requires the base environment
+
+.. warning:: Estimated completion time 1 hour
 
 .. toctree::
    :maxdepth: 1

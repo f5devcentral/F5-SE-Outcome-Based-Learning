@@ -16,6 +16,10 @@ Outcome-based education or outcomes-based education (OBE) is an educational theo
 
 Source: https://en.wikipedia.org/wiki/Outcome-based_education
 
+Challenges are meant to be run independently of each other, eventually creating a lab/demo environment able to sustain multiple solutions. Each challenge will refer to the required base or base plus an optional environment as needed.
+
+The estimated completion time of each challenge is up to 2 hours. 
+
 .. toctree::
    :maxdepth: 1
    :caption: Base Environment
