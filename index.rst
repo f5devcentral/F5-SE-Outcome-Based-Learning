@@ -24,14 +24,24 @@ Source: https://en.wikipedia.org/wiki/Outcome-based_education
 
 .. toctree::
    :maxdepth: 1
-   :caption: Challenges
+   :caption: F5 XC Challenges
 
    /docs/challenges/f5xc-regional-edge-waap/index
    /docs/challenges/f5xc-regional-edge-load-balancer/index
+   /docs/challenges/f5xc-regional-edge-observability/index
    /docs/challenges/f5xc-customer-edge-load-balancer/index
    /docs/challenges/f5xc-hybrid-edge-load-balancer/index
+
+.. toctree::
+   :maxdepth: 1
+   :caption: NGINX Challenges
+
    /docs/challenges/nginx-kubernetes-traffic-management/index
    /docs/challenges/nginx-kubernetes-application/index
+
+.. toctree::
+   :maxdepth: 1
+   :caption: BIG-IP Challenges
 
 .. toctree::
    :maxdepth: 1
