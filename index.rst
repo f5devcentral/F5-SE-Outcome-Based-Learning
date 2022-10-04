@@ -3,12 +3,12 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to the F5 SE Objective-based Learning
+Welcome to the F5 SE Outcome-based Learning
 =============================================
 
 |image01|
 
-F5 provides many layers of learning, crafted blueprints, Agility, and in-person events. The SE Objective-based learning is different from those. These learning solutions are designed around building confidence and knowledge. Unlike other learning solutions the outcome of a task is defined, and only example documentation is provided. 
+F5 provides many layers of learning, crafted blueprints, Agility, and in-person events. The SE Outcome-based learning is different from those. These learning solutions are designed around building confidence and knowledge. Unlike other learning solutions the outcome of a task is defined, and only example documentation is provided. 
 
 About outcomes-based education:
 
