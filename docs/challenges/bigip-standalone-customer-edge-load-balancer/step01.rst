@@ -1,4 +1,4 @@
-Step 1
+Build a BIG-IP standalone in the Cloud
 ============================
 
 **Objective**:
