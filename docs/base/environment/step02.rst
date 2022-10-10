@@ -6,16 +6,20 @@ Cloud Construct
 Environments should include:
 
 Required Tags: 
+
 - All resources in the environment must be tagged with the following key:value 
-  - Owner: <f5 email address> 
-  - Application: <SE-OBT-yourname>
+
+ - Owner: <f5 email address> 
+ - Application: <SE-OBT-yourname>
 
 Required Virtual Networking: 
+
 - Public subnet - Internet Connectivity
 - Private subnet - No Internet Connectivity
 - Management subnet - Internet Connectivity
 
 Documentation:
+
 - Infrastructure as code documentation should be gathered for recreation. F5XC, and other major Cloud Service Providers share code to recreate resources, saving these will lead to quicker recreation after deletion.
 
 Microsoft Azure:
@@ -42,11 +46,14 @@ Differences between the two: https://docs.microsoft.com/en-us/azure/architecture
 **How**:
 
 Azure:
+
   - https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal
   - https://docs.microsoft.com/en-us/azure/virtual-network/quick-create-portal
 
-AWS: 
+AWS:
+
   - https://docs.aws.amazon.com/eks/latest/userguide/creating-a-vpc.html
 
 Google:
+
   - https://cloud.google.com/vpc/docs/create-modify-vpc-networks

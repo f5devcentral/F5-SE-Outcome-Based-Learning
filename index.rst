@@ -28,6 +28,13 @@ The estimated completion time of each challenge is up to 2 hours.
 
 .. toctree::
    :maxdepth: 1
+   :caption: F5 BIG-IP Challenges
+
+   /docs/challenges/bigip-standalone-customer-edge-load-balancer
+   /docs/challenges/bigip-ha-customer-edge-load-balancer
+
+.. toctree::
+   :maxdepth: 1
    :caption: F5 XC Challenges
 
    /docs/challenges/f5xc-regional-edge-waap/index
