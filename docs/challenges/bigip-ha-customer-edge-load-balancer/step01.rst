@@ -1,4 +1,4 @@
-Step 1
+Build a BIG-IP HA Cluster in the Cloud
 ============================
 
 **Objective**:
