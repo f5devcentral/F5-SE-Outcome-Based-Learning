@@ -54,6 +54,9 @@ The estimated completion time of each challenge is up to 2 hours.
    :maxdepth: 1
    :caption: BIG-IP Challenges
 
+   /docs/challenges/bigip-standalone-customer-edge-load-balancer/index
+   /docs/challenges/bigip-ha-customer-edge-load-balancer/index
+
 .. toctree::
    :maxdepth: 1
    :caption: About this Project
