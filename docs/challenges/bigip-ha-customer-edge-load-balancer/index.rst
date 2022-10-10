@@ -1,4 +1,4 @@
-BIG-IP HA Pair in the Cloud
+BIG-IP cluster in the Cloud
 ===========================
 
 Create a cloud BIG-IP HA Pair
