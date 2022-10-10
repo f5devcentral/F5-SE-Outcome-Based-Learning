@@ -1,5 +1,5 @@
-Step 2
-============================
+Verify Failover works
+=====================
 
 **Objective**:
 

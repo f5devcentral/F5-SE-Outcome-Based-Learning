@@ -1,5 +1,5 @@
-Pass traffic to Backend App
-============================
+Pass Traffic to Application
+===========================
 
 **Objective**:
 
