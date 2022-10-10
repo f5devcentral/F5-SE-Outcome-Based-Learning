@@ -1,7 +1,11 @@
-BIG-IP HA Pain in the Cloud
+BIG-IP HA Pair in the Cloud
 ===========================
 
-Create a BIG-IP HA Pair in the CLoud
+Create a cloud BIG-IP HA Pair
+
+.. warning:: This challenge requires the base environment
+
+.. warning:: Estimated completion time 2 hours
 
 .. toctree::
    :maxdepth: 1
