@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'SE Objective-based Learning'
-copyright = '2022, Jon Calalang, Chas Lesley, Garland Moore, Yossi Rosenboim'
-author = 'Jon Calalang, Chas Lesley, Garland Moore, Yossi Rosenboim'
+project = 'F5 SE Outcome-based Learning'
+copyright = '2022, Jon Calalang, Chas Lesley, Garland Moore, Yossi Rosenboim, Vladimir Bojkovic'
+author = 'Jon Calalang, Chas Lesley, Garland Moore, Yossi Rosenboim, Vladimir Bojkovic'
 
 
 # -- General configuration ---------------------------------------------------

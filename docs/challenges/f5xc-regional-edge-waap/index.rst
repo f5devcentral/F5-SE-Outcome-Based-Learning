@@ -18,6 +18,9 @@ In this exercise you will be solving the following common problems using XC (RE 
 - Accelerate your site performance using CDN  
 - Block non-compliant values in the XFF header
 
+.. warning:: This challenge requires the base environment
+
+.. warning:: Estimated completion time 2 hours
 
 .. toctree::
    :maxdepth: 1
