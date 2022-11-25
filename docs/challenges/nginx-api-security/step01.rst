@@ -43,4 +43,4 @@ Marketplace:
 **Docker**: 
 
 Manual:
-- https://docs.nginx.com/nginx/admin-guide/installing-nginx/installing-nginx-docker
+  - https://docs.nginx.com/nginx/admin-guide/installing-nginx/installing-nginx-docker

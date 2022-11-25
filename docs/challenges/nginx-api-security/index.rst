@@ -27,4 +27,7 @@ Many configuration examples of NGINX as an API Gateway (including security), can
    :maxdepth: 1
    :glob:
 
-   step*
+   step01
+   step02
+   step03
+   step04

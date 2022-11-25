@@ -11,7 +11,7 @@ Verify that the default NGINX page is available
 
 **How**:
 
-After a valid install, the NGINX default page will be available
+After a valid install, the NGINX default page will be available:
 
 |image01|
 
@@ -19,3 +19,4 @@ After a valid install, the NGINX default page will be available
 
 .. |image01| image:: images/image01.png
    :width: 50%
+   :align: center

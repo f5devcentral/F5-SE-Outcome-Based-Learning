@@ -13,15 +13,15 @@ Configuration of NGINX happens locally at the instance, external resources need 
 
 **AWS**:
 
-  - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstances.html
+- https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstances.html
 
 **Azure**:
 
-  - https://learn.microsoft.com/en-us/azure/virtual-machines/linux-vm-connect?tabs=Linux
+- https://learn.microsoft.com/en-us/azure/virtual-machines/linux-vm-connect?tabs=Linux
 
 **Google Cloud**:
 
-  - https://cloud.google.com/compute/docs/instances/connecting-to-instance
+- https://cloud.google.com/compute/docs/instances/connecting-to-instance
 
 **Automation of configuration**:
 
