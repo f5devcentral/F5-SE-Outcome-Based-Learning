@@ -13,21 +13,23 @@ Source: https://owasp.org/www-project-api-security
 
 **How**:
 
-Implement security practices recommend in the OWASP REST Security Cheat Sheet
+Implement security practices recommend in the OWASP REST Security Cheat Sheet:
 
 Source: https://cheatsheetseries.owasp.org/cheatsheets/REST_Security_Cheat_Sheet.html
 
-- HTTPS
-- Access Control
-- JWT
-- API Keys
-- Restrict HTTP methods
-- Input validation
-- Validate content types
-- Management endpoints
-- Error handling
-- Audit logs
-- Security Headers
-- CORS
-- Sensitive information in HTTP requests
-- HTTP Return Code
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   step05
+   step06
+   step07
+   step08
+   step09
+   step10
+   step11
+   step12
+   step13
+   step15
+   step16
+   step17

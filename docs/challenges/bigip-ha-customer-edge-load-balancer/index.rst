@@ -1,5 +1,5 @@
-BIG-IP cluster in the Cloud
-===========================
+F5 BIG-IP cluster in the Cloud
+==============================
 
 Create a cloud BIG-IP HA Pair
 

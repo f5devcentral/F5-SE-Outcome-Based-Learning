@@ -13,7 +13,7 @@ NGINX instance will be used as an API Gateway providing routing, identity, and s
 
 Chose your cloud provider and start with the documentation below.
 
-***AWS***:
+**AWS**:
 
 Manual: 
   - https://docs.nginx.com/nginx/admin-guide/installing-nginx/installing-nginx-plus-amazon-web-services
@@ -21,7 +21,7 @@ Manual:
 Marketplace: 
   - https://aws.amazon.com/marketplace/pp/prodview-xogyq23b3mfge
 
-***Azure***:
+**Azure**:
 
 Manual:
   - https://docs.nginx.com/nginx/admin-guide/installing-nginx/installing-nginx-plus-microsoft-azure
@@ -32,7 +32,7 @@ Marketplace:
 NGINX as a Service:
   - https://portal.azure.com/#create/f5-networks.f5-nginx-for-azure
 
-***Google Cloud***: 
+**Google Cloud**: 
 
 Manual:
   - https://docs.nginx.com/nginx/admin-guide/installing-nginx/installing-nginx-plus-google-cloud-platform
@@ -40,6 +40,7 @@ Manual:
 Marketplace:
   - https://console.cloud.google.com/marketplace/product/nginx-public/nginx-plus-app-protect-ubuntu1804-premium
 
-***Docker***: 
+**Docker**: 
 
+Manual:
 - https://docs.nginx.com/nginx/admin-guide/installing-nginx/installing-nginx-docker

@@ -18,3 +18,4 @@ After a valid install, the NGINX default page will be available.
 .. warning:: The default page is only available on HTTP
 
 .. |image01| image:: images/image01.png
+   :width: 50%
