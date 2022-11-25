@@ -7,10 +7,10 @@ Disable management endpoints on NGINX
 
 **Why**: 
 
-Avoid exposing management endpoints via Internet.
-If management endpoints must be accessible via the Internet, make sure that users must use a strong authentication mechanism, e.g. multi-factor.
-Expose management endpoints via different HTTP ports or hosts preferably on a different NIC and restricted subnet.
-Restrict access to these endpoints by firewall rules or use of access control lists.
+- Avoid exposing management endpoints via Internet.
+- If management endpoints must be accessible via the Internet, make sure that users must use a strong authentication mechanism, e.g. multi-factor.
+- Expose management endpoints via different HTTP ports or hosts preferably on a different NIC and restricted subnet.
+- Restrict access to these endpoints by firewall rules or use of access control lists.
 
 **How**:
 

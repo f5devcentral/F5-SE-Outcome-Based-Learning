@@ -7,8 +7,8 @@ Enable error handling with NGINX
 
 **Why**: 
 
-Respond with generic error messages - avoid revealing details of the failure unnecessarily.
-Do not pass technical details (e.g. call stacks or other internal hints) to the client.
+- Respond with generic error messages - avoid revealing details of the failure unnecessarily.
+- Do not pass technical details (e.g. call stacks or other internal hints) to the client.
 
 **How**:
 

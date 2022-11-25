@@ -1,13 +1,13 @@
-NGINX Instance
-==============
+NGINX API Gateway Security
+==========================
 
 **Objective**: 
 
-Implement API/Web traffic securely.
+Implement API/Web traffic securely
 
 **Why**: 
 
-API Security focuses on strategies and solutions to understand and mitigate the unique vulnerabilities and security risks of Application Programming Interfaces (APIs).
+API Security focuses on strategies and solutions to understand and mitigate the unique vulnerabilities and security risks of Application Programming Interfaces (APIs)
 
 Source: https://owasp.org/www-project-api-security
 

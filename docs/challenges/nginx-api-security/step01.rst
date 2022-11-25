@@ -7,11 +7,11 @@ Create an NGINX Plus Instance
 
 **Why**: 
 
-NGINX instance will be used as an API Gateway providing routing, identity, and security.
+NGINX instance will be used as an API Gateway providing routing, identity, and security
 
 **How**:
 
-Chose your cloud provider and start with the documentation below.
+Chose your cloud provider and start with the documentation below
 
 **AWS**:
 

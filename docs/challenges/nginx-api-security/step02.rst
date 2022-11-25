@@ -7,7 +7,7 @@ Access the NGINX Plus Instance(s)
 
 **Why**: 
 
-Configuration of NGINX happens locally at the instance, external resources need to be available for local configuration.
+Configuration of NGINX happens locally at the instance, external resources need to be available for local configuration
 
 **How**:
 
