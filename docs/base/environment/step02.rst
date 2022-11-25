@@ -53,6 +53,8 @@ Azure:
 AWS:
 
   - https://docs.aws.amazon.com/eks/latest/userguide/creating-a-vpc.html
+  - For simple challenges an AWS maintained CFT can be used
+    https://raw.githubusercontent.com/awslabs/aws-cloudformation-templates/master/aws/services/VPC/VPC_With_Managed_NAT_And_Private_Subnet.yaml
 
 Google:
 
