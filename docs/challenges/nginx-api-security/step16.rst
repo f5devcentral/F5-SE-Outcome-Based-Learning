@@ -23,4 +23,13 @@ NOT OK:
 
 **How**:
 
-https://www.nginx.com/blog/creating-nginx-rewrite-rules/
+Example Documentation:
+
+- https://www.nginx.com/blog/creating-nginx-rewrite-rules/
+
+.. note:: Use NGINX App Protect for enhanced security
+
+NGINX Documentation:
+
+- https://docs.nginx.com/nginx-app-protect/declarative-policy/policy/#policy/sensitive-parameters
+- https://docs.nginx.com/nginx-app-protect/declarative-policy/policy/#policy/data-guard

@@ -27,5 +27,11 @@ As JWTs contain details of the authenticated entity (user etc.) a disconnect can
 
 **How**:
 
-https://docs.nginx.com/nginx/admin-guide/security-controls/configuring-jwt-authentication/
+Example Documentation:
 
+- https://www.nginx.com/blog/authenticating-api-clients-jwt-nginx-plus/
+- https://github.com/nginx/njs-examples
+
+NGINX Documentation:
+
+- https://docs.nginx.com/nginx/admin-guide/security-controls/configuring-jwt-authentication/

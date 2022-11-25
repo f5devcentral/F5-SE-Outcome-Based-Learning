@@ -53,5 +53,12 @@ Here is a non-exhaustive selection of security related REST API status codes. Us
 
 **How**:
 
+Example Documentation:
 
-http://nginx.org/en/docs/http/ngx_http_rewrite_module.html#return
+- http://nginx.org/en/docs/http/ngx_http_rewrite_module.html#return
+
+.. note:: Use NGINX App Protect for enhanced security
+
+NGINX Documentation:
+
+- https://docs.nginx.com/nginx-app-protect/declarative-policy/policy/#policy/general

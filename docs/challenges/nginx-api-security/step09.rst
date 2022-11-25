@@ -20,4 +20,13 @@ Enable input validation with NGINX
 
 **How**:
 
-https://www.nginx.com/blog/deploying-nginx-plus-as-an-api-gateway-part-2-protecting-backend-services/#request-bodies
+Example Documentation:
+
+- https://www.nginx.com/blog/deploying-nginx-plus-as-an-api-gateway-part-2-protecting-backend-services/#request-bodies
+- https://www.nginx.com/resources/wiki/extending/examples/body_filter/
+
+NGINX Documentation:
+
+- https://nginx.org/en/docs/njs/
+- https://docs.nginx.com/nginx-app-protect/configuration-guide/configuration/#handling-xml-and-json-content
+

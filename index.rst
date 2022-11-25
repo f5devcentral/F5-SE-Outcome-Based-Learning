@@ -48,8 +48,8 @@ The estimated completion time of each challenge is up to 2 hours.
    :caption: NGINX Challenges
 
    /docs/challenges/nginx-kubernetes-traffic-management/index
-   /docs/challenges/nginx-kubernetes-application/index
    /docs/challenges/nginx-api-security/index
+   /docs/challenges/nginx-kubernetes-application/index
 
 .. toctree::
    :maxdepth: 1

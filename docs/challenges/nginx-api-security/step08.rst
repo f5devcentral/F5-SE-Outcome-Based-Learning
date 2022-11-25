@@ -18,4 +18,11 @@ API keys can reduce the impact of denial-of-service attacks. However, when they 
 
 **How**:
 
-http://nginx.org/en/docs/http/ngx_http_map_module.html
+Example Documentation:
+
+- https://www.nginx.com/blog/authenticating-api-clients-jwt-nginx-plus/
+- https://github.com/nginx/njs-examples
+
+NGINX Documentation:
+
+- http://nginx.org/en/docs/http/ngx_http_map_module.html

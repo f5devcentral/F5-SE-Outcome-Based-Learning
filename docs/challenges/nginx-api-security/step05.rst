@@ -15,6 +15,10 @@ Consider the use of mutually authenticated client-side certificates to provide a
 
 **How**:
 
-https://docs.nginx.com/nginx/admin-guide/security-controls/terminating-ssl-http/
+Example Documentation:
 
-mTLS: https://www.youtube.com/watch?v=BuDK5g49UDg
+- https://www.youtube.com/watch?v=BuDK5g49UDg
+
+NGINX Documentation:
+
+- https://docs.nginx.com/nginx/admin-guide/security-controls/terminating-ssl-http/

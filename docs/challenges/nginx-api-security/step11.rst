@@ -14,4 +14,10 @@ Disable management endpoints on NGINX
 
 **How**:
 
-https://docs.nginx.com/nginx/admin-guide/monitoring/live-activity-monitoring/#configuring-the-api
+Example Documentation:
+
+- https://hub.docker.com/r/nginxinc/nginx-unprivileged
+
+NGINX Documentation:
+
+- https://docs.nginx.com/nginx/admin-guide/monitoring/live-activity-monitoring/#configuring-the-api

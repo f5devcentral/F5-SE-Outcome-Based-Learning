@@ -26,4 +26,10 @@ Ensure sending intended content type headers in your response matching your body
 
 **How**:
 
-https://www.nginx.com/resources/wiki/start/topics/examples/full/#mime-types
+Example Documentation:
+
+- https://www.nginx.com/resources/wiki/start/topics/examples/headers_management/
+
+NGINX Documentation:
+
+- https://www.nginx.com/resources/wiki/start/topics/examples/full/#mime-types

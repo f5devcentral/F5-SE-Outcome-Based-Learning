@@ -13,4 +13,19 @@ Enable audit logs with NGINX
 
 **How**:
 
-https://docs.nginx.com/nginx/admin-guide/monitoring/logging/
+Example Documentation:
+
+- https://www.nginx.com/resources/webinars/analyzing-nginx-logs-datadog
+- https://www.nginx.com/blog/operational-intelligence-nginx-plus-splunk-enterprise
+- https://nginx.org/en/docs/syslog.html
+
+.. note:: Use NGINX App Protect for enhanced security logging
+
+NGINX Documentation:
+
+- https://docs.nginx.com/nginx/admin-guide/monitoring/logging
+- https://docs.nginx.com/nginx/admin-guide/monitoring/live-activity-monitoring
+- http://nginx.org/en/docs/http/ngx_http_log_module.html
+- https://nginx.org/en/docs/http/ngx_http_session_log_module.html
+- https://nginx.org/en/docs/stream/ngx_stream_log_module.html
+- https://docs.nginx.com/nginx-app-protect/logging-overview/security-log/

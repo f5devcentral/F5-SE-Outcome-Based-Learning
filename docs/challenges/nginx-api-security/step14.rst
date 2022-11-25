@@ -30,5 +30,15 @@ Header Rationale
 
 **How**:
 
-https://content-security-policy.com/examples/nginx/
-http://nginx.org/en/docs/http/ngx_http_headers_module.html
+Example Documentation:
+
+- https://content-security-policy.com/examples/nginx
+- https://www.nginx.com/resources/wiki/start/topics/examples/headers_management/
+- https://www.nginx.com/blog/http-strict-transport-security-hsts-and-nginx/
+
+.. note:: Use NGINX App Protect for enhanced security
+
+NGINX Documentation:
+
+- http://nginx.org/en/docs/http/ngx_http_headers_module.html
+- https://docs.nginx.com/nginx-app-protect/configuration-guide/configuration/#additional-configuration-options

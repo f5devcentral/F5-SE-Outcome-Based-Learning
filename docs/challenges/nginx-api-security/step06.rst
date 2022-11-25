@@ -14,4 +14,12 @@ user authentication should be centralised in a Identity Provider (IdP), which is
 
 **How**:
 
-https://github.com/nginxinc/nginx-openid-connect
+Example Documentation:
+
+- https://www.nginx.com/blog/authenticating-users-existing-applications-openid-connect-nginx-plus/
+- https://github.com/nginxinc/nginx-openid-connect
+- https://www.youtube.com/watch?v=ZbOIHc69khc
+
+NGINX Documentation:
+
+- https://docs.nginx.com/search.html#q=oidc&sort=relevancy&f:@f5_product=[NGINX%20Plus]

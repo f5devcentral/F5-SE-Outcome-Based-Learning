@@ -1,5 +1,5 @@
-F5 NGINX Kubernetes Application
-===============================
+NGINX Kubernetes Application
+============================
 
 Create an NGINX application in Kubernetes.
 

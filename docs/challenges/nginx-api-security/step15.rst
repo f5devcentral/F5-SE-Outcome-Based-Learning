@@ -14,4 +14,12 @@ Cross-Origin Resource Sharing (CORS) is a W3C standard to flexibly specify what 
 
 **How**:
 
-https://enable-cors.org/server_nginx.html
+Example Documentation:
+
+- https://enable-cors.org/server_nginx.html
+
+.. note:: Use NGINX App Protect for enhanced security
+
+NGINX Documentation:
+
+- https://docs.nginx.com/nginx-app-protect/declarative-policy/policy/
