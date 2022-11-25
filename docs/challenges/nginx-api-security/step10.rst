@@ -13,7 +13,7 @@ A REST request or response body should match the intended content type in the he
 - Validate request content types
 - Reject requests containing unexpected or missing content type headers with HTTP response status 406 Unacceptable or 415 Unsupported Media Type.
 - For XML content types ensure appropriate XML parser hardening, see the XXE cheat sheet.
-Avoid accidentally exposing unintended content types by explicitly defining content types e.g. Jersey (Java) @consumes("application/json"); @produces("application/json"). This avoids XXE-attack vectors for example.
+Avoid accidentally exposing unintended content types by explicitly defining content types e.g. Jersey (Java) @consumes(application/json); @produces(application/json). This avoids XXE-attack vectors for example.
 - Send safe response content types
 
 It is common for REST services to allow multiple response types (e.g. application/xml or application/json, and the client specifies the preferred order of response types by the Accept header in the request.
