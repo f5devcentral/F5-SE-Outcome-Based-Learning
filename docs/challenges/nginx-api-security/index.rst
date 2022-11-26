@@ -19,10 +19,6 @@ Many configuration examples of NGINX as an API Gateway (including security), can
 - https://www.nginx.com/blog/deploying-nginx-plus-as-an-api-gateway-part-2-protecting-backend-services/
 - https://www.nginx.com/blog/deploying-nginx-plus-as-an-api-gateway-part-3-publishing-grpc-services/
 
-Using NGINX App Protect to secure API Gateway
-
-- https://www.nginx.com/blog/secure-your-api-gateway-with-nginx-app-protect-waf/
-
 .. warning:: This challenge requires the base environment
 
 .. warning:: Estimated completion time 2+ hours

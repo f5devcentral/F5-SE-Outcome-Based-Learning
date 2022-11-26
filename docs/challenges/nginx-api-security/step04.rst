@@ -11,6 +11,10 @@ API Security focuses on strategies and solutions to understand and mitigate the 
 
 Source: https://owasp.org/www-project-api-security
 
+Using NGINX App Protect to secure API Gateway
+
+- https://www.nginx.com/blog/secure-your-api-gateway-with-nginx-app-protect-waf/
+
 **How**:
 
 Implement security practices recommend in the OWASP REST Security Cheat Sheet:

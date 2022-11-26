@@ -13,34 +13,26 @@ NGINX instance will be used as an API Gateway providing routing, identity, and s
 
 Chose your cloud provider and start with the documentation below
 
-**AWS**:
+AWS:
+  Manual: 
+    - https://docs.nginx.com/nginx/admin-guide/installing-nginx/installing-nginx-plus-amazon-web-services
+  Marketplace: 
+    - https://aws.amazon.com/marketplace/pp/prodview-xogyq23b3mfge
 
-Manual: 
-  - https://docs.nginx.com/nginx/admin-guide/installing-nginx/installing-nginx-plus-amazon-web-services
+Azure:
+  Manual:
+    - https://docs.nginx.com/nginx/admin-guide/installing-nginx/installing-nginx-plus-microsoft-azure
+  Marketplace: 
+    - https://portal.azure.com/#view/Microsoft_Azure_Marketplace/GalleryItemDetailsBladeNopdl/id/nginxinc.nginx_plus_with_nginx_app_protect_developer
+  NGINX as a Service:
+    - https://portal.azure.com/#create/f5-networks.f5-nginx-for-azure
 
-Marketplace: 
-  - https://aws.amazon.com/marketplace/pp/prodview-xogyq23b3mfge
+Google Cloud: 
+  Manual:
+    - https://docs.nginx.com/nginx/admin-guide/installing-nginx/installing-nginx-plus-google-cloud-platform
+  Marketplace:
+    - https://console.cloud.google.com/marketplace/product/nginx-public/nginx-plus-app-protect-ubuntu1804-premium
 
-**Azure**:
-
-Manual:
-  - https://docs.nginx.com/nginx/admin-guide/installing-nginx/installing-nginx-plus-microsoft-azure
-
-Marketplace: 
-  - https://portal.azure.com/#view/Microsoft_Azure_Marketplace/GalleryItemDetailsBladeNopdl/id/nginxinc.nginx_plus_with_nginx_app_protect_developer
-
-NGINX as a Service:
-  - https://portal.azure.com/#create/f5-networks.f5-nginx-for-azure
-
-**Google Cloud**: 
-
-Manual:
-  - https://docs.nginx.com/nginx/admin-guide/installing-nginx/installing-nginx-plus-google-cloud-platform
-
-Marketplace:
-  - https://console.cloud.google.com/marketplace/product/nginx-public/nginx-plus-app-protect-ubuntu1804-premium
-
-**Docker**: 
-
-Manual:
-  - https://docs.nginx.com/nginx/admin-guide/installing-nginx/installing-nginx-docker
+Docker: 
+  Manual:
+    - https://docs.nginx.com/nginx/admin-guide/installing-nginx/installing-nginx-docker
