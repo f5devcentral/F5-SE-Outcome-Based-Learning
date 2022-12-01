@@ -23,9 +23,12 @@ NOT OK:
 
 **How**:
 
+Utilizing a match on a string(s) with a location will stop traffic and respond with an invalid HTTP code.
+
 Example Documentation:
 
 - https://www.nginx.com/blog/creating-nginx-rewrite-rules/
+- https://www.nginx.com/resources/wiki/start/topics/depth/ifisevil/
 
 .. note:: Use NGINX App Protect for enhanced security
 

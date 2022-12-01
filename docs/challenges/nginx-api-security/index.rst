@@ -7,7 +7,7 @@ A foundational element of innovation in todays app-driven world is the API. From
 
 API Security focuses on strategies and solutions to understand and mitigate the unique vulnerabilities and security risks of Application Programming Interfaces (APIs).
 
-Source: https://owasp.org/www-project-api-security/
+Source: https://owasp.org/www-project-api-security
 
 **Learning Objectives**
 
@@ -15,11 +15,13 @@ As the leading high-performance, lightweight reverse proxy and load balancer, NG
 
 Many configuration examples of NGINX as an API Gateway (including security), can be found in a three-part series from Liam Crilly:
 
-- https://www.nginx.com/blog/deploying-nginx-plus-as-an-api-gateway-part-1/
-- https://www.nginx.com/blog/deploying-nginx-plus-as-an-api-gateway-part-2-protecting-backend-services/
-- https://www.nginx.com/blog/deploying-nginx-plus-as-an-api-gateway-part-3-publishing-grpc-services/
+- https://www.nginx.com/blog/deploying-nginx-plus-as-an-api-gateway-part-1
+- https://www.nginx.com/blog/deploying-nginx-plus-as-an-api-gateway-part-2-protecting-backend-services
+- https://www.nginx.com/blog/deploying-nginx-plus-as-an-api-gateway-part-3-publishing-grpc-services
 
-.. warning:: This challenge requires the base environment
+.. warning:: This challenge requires the base environment or AWS Simple CFT
+
+.. warning:: UDF AWS cloud account users US-WEST-2 is the recommended region
 
 .. warning:: Estimated completion time 2+ hours
 

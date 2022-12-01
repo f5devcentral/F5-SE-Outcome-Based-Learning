@@ -18,11 +18,12 @@ API keys can reduce the impact of denial-of-service attacks. However, when they 
 
 **How**:
 
+API keys/tokens are a low-level authorization method, however, these keys/tokens are commonly used to track API consumption for monetization.
+
 Example Documentation:
 
-- https://www.nginx.com/blog/authenticating-api-clients-jwt-nginx-plus/
-- https://github.com/nginx/njs-examples
+- https://www.nginx.com/blog/deploying-nginx-plus-as-an-api-gateway-part-1 *API Key Authentication*
 
 NGINX Documentation:
 
-- http://nginx.org/en/docs/http/ngx_http_map_module.html
+- https://nginx.org/en/docs/http/ngx_http_auth_request_module.html#auth_request
