@@ -26,6 +26,8 @@ Ensure sending intended content type headers in your response matching your body
 
 **How**:
 
+.. note:: Most proxy pass solutions require a Host header to be added since NGINX defaults to passing the original Host header.
+
 Example Documentation:
 
 - https://www.nginx.com/resources/wiki/start/topics/examples/headers_management/

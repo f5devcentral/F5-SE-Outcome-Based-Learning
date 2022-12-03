@@ -12,6 +12,8 @@ Enable error handling with NGINX
 
 **How**:
 
+.. note:: Most proxy pass solutions require a Host header to be added since NGINX defaults to passing the original Host header.
+
 Example Documentation:
 
 - https://www.nginx.com/blog/creating-nginx-rewrite-rules/

@@ -14,6 +14,8 @@ Cross-Origin Resource Sharing (CORS) is a W3C standard to flexibly specify what 
 
 **How**:
 
+.. note:: Most proxy pass solutions require a Host header to be added since NGINX defaults to passing the original Host header.
+
 Example Documentation:
 
 - https://enable-cors.org/server_nginx.html

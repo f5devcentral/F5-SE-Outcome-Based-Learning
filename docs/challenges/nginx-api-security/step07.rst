@@ -3,7 +3,7 @@ JWT
 
 **Objective**: 
 
-Enable JWT with NGINX 
+Enable JWT validation with NGINX 
 
 **Why**: 
 
@@ -27,7 +27,7 @@ As JWTs contain details of the authenticated entity (user etc.) a disconnect can
 
 **How**:
 
-JWT validation works against the proxy_pass directive. For a quick example of injecting security in front of a service proxy_pass against www.nginx.org.
+JWT validation works against the proxy_pass directive. For a quick example of injecting security in front of a service, proxy_pass against something available on the internet; like: www.nginx.org
 
 .. note:: Most proxy pass solutions require a Host header to be added since NGINX defaults to passing the original Host header.
 
@@ -39,5 +39,6 @@ Example Documentation:
 NGINX Documentation:
 
 - https://docs.nginx.com/nginx/admin-guide/security-controls/configuring-jwt-authentication/
+- http://nginx.org/en/docs/http/ngx_http_auth_jwt_module.html
 - http://nginx.org/en/docs/http/ngx_http_proxy_module.html#proxy_pass
 - http://nginx.org/en/docs/http/ngx_http_proxy_module.html#proxy_pass_header

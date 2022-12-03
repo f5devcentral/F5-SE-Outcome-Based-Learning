@@ -20,6 +20,8 @@ Enable input validation with NGINX
 
 **How**:
 
+.. note:: Most proxy pass solutions require a Host header to be added since NGINX defaults to passing the original Host header.
+
 Example Documentation:
 
 - https://www.nginx.com/blog/deploying-nginx-plus-as-an-api-gateway-part-2-protecting-backend-services/#request-bodies

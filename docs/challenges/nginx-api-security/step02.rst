@@ -3,11 +3,13 @@ Access NGINX Plus Instance
 
 **Objective**: 
 
-Access the NGINX Plus Instance(s)
+Gain access to the NGINX instance(s) through SSH to build and store NGINX configuration.
 
 **Why**: 
 
-Configuration of NGINX happens locally at the instance, external resources need to be available for local configuration
+The configuration of NGINX is stored locally. This means the gateways do not need any outside entity to process traffic, with each gateway independent, scale is practically limitless.
+
+Automation or configuration management tools place NGINX configuration files locally, tools like NGINX Instance Manager can proxy NGINX configuration files into a declarative API for groups of NGINX servers (Plus or OSS).
 
 **How**:
 
@@ -24,3 +26,6 @@ Google Cloud:
 
 Ansible:
   - https://www.nginx.com/blog/announcing-nginx-core-collection-ansible
+
+NGINX Instance Manager
+  - https://www.nginx.com/products/nginx-management-suite/instance-manager/

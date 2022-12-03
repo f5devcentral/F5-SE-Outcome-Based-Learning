@@ -3,7 +3,7 @@ NGINX API Gateway Security
 
 **Objective**: 
 
-Implement API/Web traffic securely
+Implement security for API/Web traffic
 
 **Why**: 
 
@@ -11,9 +11,87 @@ API Security focuses on strategies and solutions to understand and mitigate the 
 
 Source: https://owasp.org/www-project-api-security
 
-Using NGINX App Protect to secure API Gateway
+NGINX Plus and OSS have many inherent security best practice tools. However, there are additional tools beyond Plus or OSS. For more all-inclusive security NGINX App Protect WAF and DDoS are available.
+
+- https://docs.nginx.com/nginx-app-protect/
+- https://docs.nginx.com/nginx-app-protect-dos/
+
+Example Documentation:
 
 - https://www.nginx.com/blog/secure-your-api-gateway-with-nginx-app-protect-waf/
+
++------------------------+
+|                        |
+|    NAP Feature         |
++========================+
+| applicationLanguage    |
++------------------------+
+| blocking-settings      |
++------------------------+
+| bot-defense            |
++------------------------+
+| browser-definitions    |
++------------------------+
+| caseInsensitive        |
++------------------------+
+| character-sets         |
++------------------------+
+| cookie-settings        |
++------------------------+
+| csrf-protection        |
++------------------------+
+| csrf-urls              |
++------------------------+
+| data-guard             |
++------------------------+
+| enforcer-settings      |
++------------------------+
+| general                |
++------------------------+
+| grpc-profiles          |
++------------------------+
+| header-settings        |
++------------------------+
+| headers                |
++------------------------+
+| host-names             |
++------------------------+
+| idl-files              |
++------------------------+
+| json-profiles          |
++------------------------+
+| json-validation-files  |
++------------------------+
+| methods                |
++------------------------+
+| open-api-files         |
++------------------------+
+| parameters             |
++------------------------+
+| response-pages         |
++------------------------+
+| sensitive-parameters   |
++------------------------+
+| server-technologies    |
++------------------------+
+| signature-requirements |
++------------------------+
+| signature-sets         |
++------------------------+
+| signature-settings     |
++------------------------+
+| signatures             |
++------------------------+
+| template               |
++------------------------+
+| threat-campaigns       |
++------------------------+
+| urls                   |
++------------------------+
+| whitelist-ips          |
++------------------------+
+| xml-profiles           |
++------------------------+
 
 **How**:
 

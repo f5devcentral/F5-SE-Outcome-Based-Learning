@@ -3,7 +3,7 @@ API Keys
 
 **Objective**: 
 
-Enable API Keys with NGINX
+Enable API Keys validation with NGINX
 
 **Why**: 
 
@@ -27,3 +27,5 @@ Example Documentation:
 NGINX Documentation:
 
 - https://nginx.org/en/docs/http/ngx_http_auth_request_module.html#auth_request
+- http://nginx.org/en/docs/http/ngx_http_proxy_module.html#proxy_pass
+- http://nginx.org/en/docs/http/ngx_http_proxy_module.html#proxy_pass_header

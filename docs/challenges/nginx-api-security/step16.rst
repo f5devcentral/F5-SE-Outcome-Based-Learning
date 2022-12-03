@@ -34,5 +34,7 @@ Example Documentation:
 
 NGINX Documentation:
 
+- http://nginx.org/en/docs/http/ngx_http_proxy_module.html#proxy_pass
+- http://nginx.org/en/docs/http/ngx_http_proxy_module.html#proxy_pass_header
 - https://docs.nginx.com/nginx-app-protect/declarative-policy/policy/#policy/sensitive-parameters
 - https://docs.nginx.com/nginx-app-protect/declarative-policy/policy/#policy/data-guard

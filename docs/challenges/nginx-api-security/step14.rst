@@ -30,6 +30,8 @@ Header Rationale
 
 **How**:
 
+.. note:: Most proxy pass solutions require a Host header to be added since NGINX defaults to passing the original Host header.
+
 Example Documentation:
 
 - https://content-security-policy.com/examples/nginx

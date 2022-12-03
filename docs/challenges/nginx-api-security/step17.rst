@@ -53,6 +53,8 @@ Here is a non-exhaustive selection of security related REST API status codes. Us
 
 **How**:
 
+.. note:: Most proxy pass solutions require a Host header to be added since NGINX defaults to passing the original Host header.
+
 Example Documentation:
 
 - http://nginx.org/en/docs/http/ngx_http_rewrite_module.html#return
