@@ -14,14 +14,20 @@ Cross-Origin Resource Sharing (CORS) is a W3C standard to flexibly specify what 
 
 **How**:
 
+Cross-origin resource sharing (CORS) is a mechanism that allows restricted resources on a web page to be requested from another domain outside the domain from which the first resource was served.
+
+A web page may freely embed cross-origin images, stylesheets, scripts, iframes, and videos. Certain "cross-domain" requests, notably Ajax requests, are forbidden by default by the same-origin security policy. CORS defines a way in which a browser and server can interact to determine whether it is safe to allow the cross-origin request. It allows for more freedom and functionality than purely same-origin requests, but is more secure than simply allowing all cross-origin requests.
+
+The specification for CORS is included as part of the WHATWGs Fetch Living Standard. This specification describes how CORS is currently implemented in browsers. An earlier specification was published as a W3C Recommendation.
+
+Source: https://en.wikipedia.org/wiki/Cross-origin_resource_sharing
+
 .. note:: Most proxy pass solutions require a Host header to be added since NGINX defaults to passing the original Host header.
 
 Example Documentation:
 
 - https://enable-cors.org/server_nginx.html
 
-.. note:: Use NGINX App Protect for enhanced security
-
 NGINX Documentation:
 
-- https://docs.nginx.com/nginx-app-protect/declarative-policy/policy/
+- http://nginx.org/en/docs/http/ngx_http_headers_module.html

@@ -19,15 +19,12 @@ Use a browser to make sure the default NGINX page loads
 
 Troubleshooting:
 
-- Verify the NGINX service is running
+Verify the NGINX service is running::
 
-.. code:: 
-sudo systemctl status nginx
+  sudo systemctl status nginx
+  HTTP://<nginx ip address>
 
-.. code:: 
-HTTP://<nginx ip address>
-
-- Verify any security groups or firewalls allow clients
+Verify any security groups or firewalls allow clients
 
 .. |image01| image:: images/image01.png
    :width: 50%

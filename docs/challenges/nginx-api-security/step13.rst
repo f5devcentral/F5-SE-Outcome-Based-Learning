@@ -13,15 +13,15 @@ Enable audit logs with NGINX
 
 **How**:
 
-.. note:: Most proxy pass solutions require a Host header to be added since NGINX defaults to passing the original Host header.
+NGINX has three main forms of logs, access, error, and security; access and error logs can be stored at a local location like (/var/log), or be streamed to a syslog endpoint. NGINX Security logs from NGINX App Protect should be streamed syslog to an endpoint.
+
+.. note:: Use NGINX App Protect for enhanced security logging and sensitive parameters
 
 Example Documentation:
 
 - https://www.nginx.com/resources/webinars/analyzing-nginx-logs-datadog
 - https://www.nginx.com/blog/operational-intelligence-nginx-plus-splunk-enterprise
 - https://nginx.org/en/docs/syslog.html
-
-.. note:: Use NGINX App Protect for enhanced security logging
 
 NGINX Documentation:
 
@@ -31,3 +31,4 @@ NGINX Documentation:
 - https://nginx.org/en/docs/http/ngx_http_session_log_module.html
 - https://nginx.org/en/docs/stream/ngx_stream_log_module.html
 - https://docs.nginx.com/nginx-app-protect/logging-overview/security-log/
+- https://docs.nginx.com/nginx-app-protect/declarative-policy/policy/#policy/sensitive-parameters

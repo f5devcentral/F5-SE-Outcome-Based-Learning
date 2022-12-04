@@ -21,9 +21,9 @@ Enable input validation with NGINX
 
 API requests can send and receive data via the content body (request/response), uris and codes. NGINX can parse bodies, uris and generate custom response codes. After a parse, NGINX can deny the request/response, translate, or give directions to the API client with custom codes. The NJS extension can be used to extend the body parsing with further actions.
 
-.. note:: Use NGINX App Protect for enhanced security
-
 NGINX App Protect also has Data Guard which can replace match strings and XML/JSON validation.
+
+.. note:: Use NGINX App Protect for enhanced security
 
 Example Documentation:
 

@@ -23,7 +23,7 @@ NOT OK:
 
 **How**:
 
-Utilizing a match on a string(s) with a location will stop traffic and respond with an invalid HTTP code.
+Utilizing a regex match string(s) within a location can stop traffic and respond with a custom HTTP code. NGINX location blocks are read downward, similar to a firewall except it is layer 7 logic. So if a match happens more specifically the traffic is complete. 
 
 Example Documentation:
 

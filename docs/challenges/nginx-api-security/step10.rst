@@ -26,12 +26,25 @@ Ensure sending intended content type headers in your response matching your body
 
 **How**:
 
-.. note:: Most proxy pass solutions require a Host header to be added since NGINX defaults to passing the original Host header.
+NGINX utilizing proxy_pass can verify, and manipulate headers. For content types (Media_type or mime-types) NGINX utilizes a created referenced configuration file for allowed objects.
+
+mime-types reference::
+
+  http {
+    include       /etc/nginx/mime.types;
+
+.. note:: Use NGINX App Protect for enhanced security
 
 Example Documentation:
 
 - https://www.nginx.com/resources/wiki/start/topics/examples/headers_management/
+- https://www.nginx.com/blog/avoiding-top-10-nginx-configuration-mistakes/
+- https://en.wikipedia.org/wiki/Media_type
 
 NGINX Documentation:
 
 - https://www.nginx.com/resources/wiki/start/topics/examples/full/#mime-types
+- https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/
+- https://nginx.org/en/docs/http/ngx_http_proxy_module.html#proxy_pass
+- https://docs.nginx.com/nginx-app-protect/declarative-policy/policy/#policy/filetypes
+- https://docs.nginx.com/nginx-app-protect/declarative-policy/policy/#policy/headers

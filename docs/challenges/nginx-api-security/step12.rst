@@ -12,7 +12,7 @@ Enable error handling with NGINX
 
 **How**:
 
-.. note:: Most proxy pass solutions require a Host header to be added since NGINX defaults to passing the original Host header.
+As an API Gateway NGINX sees traffic from both perspectives of the client and upstreams (servers). The upstream might send a generic response code and or generic errors. When NGINX notices this we can replace that code with something more API friendly and also modify or remove the content. If the client is trying to access a route that is not allowed NGINX can simply return a code and body notifying the client.
 
 Example Documentation:
 

@@ -14,12 +14,42 @@ Disable management endpoints on NGINX
 
 **How**:
 
-.. note:: Most proxy pass solutions require a Host header to be added since NGINX defaults to passing the original Host header.
+NGINX OSS does not have a management endpoint, since the configuration is loaded from local configuration files. NGINX Plus does have an API that can be utilized with a Dashboard or API. The API should be locked down to known good addresses or local to the instance for NGINX Agents to harvest statistics.
+
+.. note:: Both the NGINX Plus dashboard, and the API endpoint that it uses are disabled by default.
+
+NGINX Plus Dashboard:
+
+|image02|
+
+NGINX Plus API and Dashboard configuration::
+
+  server {
+      listen 8080;
+
+      location /api {
+          api write=on;
+          # directives limiting access to the API
+      }
+
+      location = /dashboard.html {
+          root   /usr/share/nginx/html;
+      }
+
+      # Redirect requests made to the pre-NGINX Plus API dashboard
+      location = /status.html {
+          return 301 /dashboard.html;
+      }
+  }
 
 Example Documentation:
 
+- http://nginx.org/en/docs/http/ngx_http_access_module.html
 - https://hub.docker.com/r/nginxinc/nginx-unprivileged
 
 NGINX Documentation:
 
 - https://docs.nginx.com/nginx/admin-guide/monitoring/live-activity-monitoring/#configuring-the-api
+
+.. |image02| image:: images/image01.png
+   :width: 50%

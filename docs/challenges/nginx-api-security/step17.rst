@@ -53,14 +53,18 @@ Here is a non-exhaustive selection of security related REST API status codes. Us
 
 **How**:
 
+NGINX API Gateway configuration is the definition of routes accessible, in each of those routes can specifically set a response code and custom body. In NGINX App Protect there is also the ability to import an OpenAPI/Swagger file, which can contain response codes and bodies.
+
 .. note:: Most proxy pass solutions require a Host header to be added since NGINX defaults to passing the original Host header.
-
-Example Documentation:
-
-- http://nginx.org/en/docs/http/ngx_http_rewrite_module.html#return
 
 .. note:: Use NGINX App Protect for enhanced security
 
+Example Documentation:
+
+- https://www.nginx.com/blog/creating-nginx-rewrite-rules/
+
 NGINX Documentation:
 
-- https://docs.nginx.com/nginx-app-protect/declarative-policy/policy/#policy/general
+- https://docs.nginx.com/nginx-app-protect/declarative-policy/policy/#policy/response-pages
+- http://nginx.org/en/docs/http/ngx_http_rewrite_module.html#return
+- https://docs.nginx.com/nginx-app-protect/declarative-policy/policy/#policy/open-api-files

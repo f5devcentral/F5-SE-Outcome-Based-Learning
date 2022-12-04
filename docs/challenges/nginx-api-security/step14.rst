@@ -30,7 +30,20 @@ Header Rationale
 
 **How**:
 
+The OWASP Secure Headers Project (OSHP) is in place to help application teams work towards a balance of headers used for applications and security headers to protect clients. NGINX can add or remove headers in server and location directives.
+
+OWASP Secure Headers Project (OSHP):
+
+- https://owasp.org/www-project-secure-headers/
+
+OWASP Secure Headers guidance:
+
+- https://owasp.org/www-project-secure-headers/ci/headers_add.json
+- https://owasp.org/www-project-secure-headers/ci/headers_remove.json
+
 .. note:: Most proxy pass solutions require a Host header to be added since NGINX defaults to passing the original Host header.
+
+.. note:: Use NGINX App Protect for enhanced security
 
 Example Documentation:
 
@@ -38,9 +51,9 @@ Example Documentation:
 - https://www.nginx.com/resources/wiki/start/topics/examples/headers_management/
 - https://www.nginx.com/blog/http-strict-transport-security-hsts-and-nginx/
 
-.. note:: Use NGINX App Protect for enhanced security
-
 NGINX Documentation:
 
 - http://nginx.org/en/docs/http/ngx_http_headers_module.html
+- https://docs.nginx.com/nginx-app-protect/declarative-policy/policy/#policy/csrf-protection
+- https://docs.nginx.com/nginx-app-protect/declarative-policy/policy/#policy/csrf-urls
 - https://docs.nginx.com/nginx-app-protect/configuration-guide/configuration/#additional-configuration-options
