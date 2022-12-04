@@ -30,6 +30,8 @@ As JWTs contain details of the authenticated entity (user etc.) a disconnect can
 
 JWT validation works against the proxy_pass directive. For a quick example of injecting security in front of a service, proxy_pass against something available on the internet; like: www.nginx.org
 
+|image03|
+
 .. note:: Most proxy pass solutions require a Host header to be added since NGINX defaults to passing the original Host header.
 
 Example Documentation:
@@ -43,3 +45,6 @@ NGINX Documentation:
 - http://nginx.org/en/docs/http/ngx_http_auth_jwt_module.html
 - http://nginx.org/en/docs/http/ngx_http_proxy_module.html#proxy_pass
 - http://nginx.org/en/docs/http/ngx_http_proxy_module.html#proxy_pass_header
+
+.. |image03| image:: images/image03.png
+   :width:75%

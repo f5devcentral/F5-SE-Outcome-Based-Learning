@@ -11,14 +11,16 @@ API Security focuses on strategies and solutions to understand and mitigate the 
 
 Source: https://owasp.org/www-project-api-security
 
+**How**:
+
+Implement security practices recommend in the OWASP REST Security Cheat Sheet:
+
+Source: https://cheatsheetseries.owasp.org/cheatsheets/REST_Security_Cheat_Sheet.html
+
 NGINX Plus and OSS have many inherent security best practice tools. However, there are additional tools beyond Plus or OSS. For more all-inclusive security NGINX App Protect WAF and DDoS are available.
 
 - https://docs.nginx.com/nginx-app-protect/
 - https://docs.nginx.com/nginx-app-protect-dos/
-
-Example Documentation:
-
-- https://www.nginx.com/blog/secure-your-api-gateway-with-nginx-app-protect-waf/
 
 +------------------------+
 |                        |
@@ -93,12 +95,6 @@ Example Documentation:
 | xml-profiles           |
 +------------------------+
 
-**How**:
-
-Implement security practices recommend in the OWASP REST Security Cheat Sheet:
-
-Source: https://cheatsheetseries.owasp.org/cheatsheets/REST_Security_Cheat_Sheet.html
-
 Recommended Starting Challenges
 
 .. toctree::
@@ -124,3 +120,7 @@ Additional Challenges
    step13
    step15
    step17
+
+Example Documentation:
+
+- https://www.nginx.com/blog/secure-your-api-gateway-with-nginx-app-protect-waf/

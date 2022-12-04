@@ -26,12 +26,12 @@ Ensure sending intended content type headers in your response matching your body
 
 **How**:
 
-NGINX utilizing proxy_pass can verify, and manipulate headers. For content types (Media_type or mime-types) NGINX utilizes a created referenced configuration file for allowed objects.
+NGINX utilizing proxy_pass can verify, and manipulate headers. For content types (Media_type or mime-types) NGINX utilizes a created referenced configuration file for allowed objects. This could be a single mime-types file or multiple.
 
 mime-types reference::
 
   http {
-    include       /etc/nginx/mime.types;
+    include /etc/nginx/mime.types;
 
 .. note:: Use NGINX App Protect for enhanced security
 

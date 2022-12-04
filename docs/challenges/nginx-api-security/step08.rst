@@ -20,6 +20,8 @@ API keys can reduce the impact of denial-of-service attacks. However, when they 
 
 API keys/tokens are a low-level authorization method, however, these keys/tokens are commonly used to track API consumption for monetization.
 
+|image04|
+
 .. note:: Most proxy pass solutions require a Host header to be added since NGINX defaults to passing the original Host header.
 
 Example Documentation:
@@ -31,3 +33,6 @@ NGINX Documentation:
 - https://nginx.org/en/docs/http/ngx_http_auth_request_module.html#auth_request
 - http://nginx.org/en/docs/http/ngx_http_proxy_module.html#proxy_pass
 - http://nginx.org/en/docs/http/ngx_http_proxy_module.html#proxy_pass_header
+
+.. |image04| image:: images/image04.png
+   :width:75%

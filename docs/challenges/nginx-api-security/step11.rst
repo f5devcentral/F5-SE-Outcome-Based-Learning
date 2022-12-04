@@ -22,7 +22,7 @@ NGINX Plus Dashboard:
 
 |image02|
 
-NGINX Plus API and Dashboard configuration::
+NGINX Plus API and Dashboard example configuration::
 
   server {
       listen 8080;
@@ -51,5 +51,5 @@ NGINX Documentation:
 
 - https://docs.nginx.com/nginx/admin-guide/monitoring/live-activity-monitoring/#configuring-the-api
 
-.. |image02| image:: images/image01.png
+.. |image02| image:: images/image02.png
    :width: 50%

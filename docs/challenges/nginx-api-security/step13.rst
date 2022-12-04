@@ -13,7 +13,7 @@ Enable audit logs with NGINX
 
 **How**:
 
-NGINX has three main forms of logs, access, error, and security; access and error logs can be stored at a local location like (/var/log), or be streamed to a syslog endpoint. NGINX Security logs from NGINX App Protect should be streamed syslog to an endpoint.
+NGINX has three main forms of logs; access, error, and security. Access and error logs can be stored at a local location like (/var/log), or be streamed to a syslog endpoint. NGINX Security logs from NGINX App Protect should be streamed syslog to an endpoint.
 
 .. note:: Use NGINX App Protect for enhanced security logging and sensitive parameters
 
