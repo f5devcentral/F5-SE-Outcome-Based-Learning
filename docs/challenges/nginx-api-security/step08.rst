@@ -20,6 +20,8 @@ API keys can reduce the impact of denial-of-service attacks. However, when they 
 
 API keys/tokens are a low-level authorization method, however, these keys/tokens are commonly used to track API consumption for monetization.
 
+.. note:: Most proxy pass solutions require a Host header to be added since NGINX defaults to passing the original Host header.
+
 Example Documentation:
 
 - https://www.nginx.com/blog/deploying-nginx-plus-as-an-api-gateway-part-1 *API Key Authentication*
