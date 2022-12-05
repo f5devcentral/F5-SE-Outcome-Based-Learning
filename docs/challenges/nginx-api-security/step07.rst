@@ -47,4 +47,4 @@ NGINX Documentation:
 - http://nginx.org/en/docs/http/ngx_http_proxy_module.html#proxy_pass_header
 
 .. |image03| image:: images/image03.png
-   :width:75%
+   :width: 50%

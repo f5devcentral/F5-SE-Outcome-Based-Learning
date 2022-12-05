@@ -13,7 +13,7 @@ Source: https://owasp.org/www-project-api-security
 
 As the leading high-performance, lightweight reverse proxy and load balancer, NGINX has the advanced HTTP processing capabilities needed for handling API traffic. This makes NGINX the ideal platform with which to build an API gateway. In this blog post we describe a number of common API gateway use cases and show how to configure NGINX to handle them in a way that is efficient, scalable, and easy to maintain. We describe a complete configuration, which can form the basis of a production deployment.
 
-Many configuration examples of NGINX as an API Gateway (including security), can be found in a three-part series from Liam Crilly:
+A recommended read of configuration examples for NGINX as an API Gateway (including security), can be found in a three-part series from Liam Crilly.
 
 - https://www.nginx.com/blog/deploying-nginx-plus-as-an-api-gateway-part-1
 - https://www.nginx.com/blog/deploying-nginx-plus-as-an-api-gateway-part-2-protecting-backend-services

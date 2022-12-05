@@ -17,6 +17,34 @@ Implement security practices recommend in the OWASP REST Security Cheat Sheet:
 
 Source: https://cheatsheetseries.owasp.org/cheatsheets/REST_Security_Cheat_Sheet.html
 
+Recommended Starting Challenges
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   step08
+   step07
+   step16
+
+Additional Challenges
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   step05
+   step06
+   step09
+   step10
+   step11
+   step12
+   step13
+   step15
+   step17
+
+Example Documentation:
+
 NGINX Plus and OSS have many inherent security best practice tools. However, there are additional tools beyond Plus or OSS. For more all-inclusive security NGINX App Protect WAF and DDoS are available.
 
 - https://docs.nginx.com/nginx-app-protect/
@@ -94,33 +122,5 @@ NGINX Plus and OSS have many inherent security best practice tools. However, the
 +------------------------+
 | xml-profiles           |
 +------------------------+
-
-Recommended Starting Challenges
-
-.. toctree::
-   :maxdepth: 1
-   :glob:
-
-   step08
-   step07
-   step16
-
-Additional Challenges
-
-.. toctree::
-   :maxdepth: 1
-   :glob:
-
-   step05
-   step06
-   step09
-   step10
-   step11
-   step12
-   step13
-   step15
-   step17
-
-Example Documentation:
 
 - https://www.nginx.com/blog/secure-your-api-gateway-with-nginx-app-protect-waf/

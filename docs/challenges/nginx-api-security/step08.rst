@@ -26,7 +26,7 @@ API keys/tokens are a low-level authorization method, however, these keys/tokens
 
 Example Documentation:
 
-- https://www.nginx.com/blog/deploying-nginx-plus-as-an-api-gateway-part-1 *API Key Authentication*
+- https://www.nginx.com/blog/deploying-nginx-plus-as-an-api-gateway-part-1#implement-auth
 
 NGINX Documentation:
 
@@ -35,4 +35,4 @@ NGINX Documentation:
 - http://nginx.org/en/docs/http/ngx_http_proxy_module.html#proxy_pass_header
 
 .. |image04| image:: images/image04.png
-   :width:75%
+   :width: 50%
