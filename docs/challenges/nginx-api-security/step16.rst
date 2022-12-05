@@ -27,6 +27,7 @@ Utilizing a regex match string(s) within a location can stop traffic and respond
 
 Example Documentation:
 
+- https://www.nginx.com/blog/regular-expression-tester-nginx/
 - https://www.nginx.com/blog/creating-nginx-rewrite-rules/
 - https://www.nginx.com/resources/wiki/start/topics/depth/ifisevil/
 
