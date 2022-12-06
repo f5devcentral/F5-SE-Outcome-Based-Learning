@@ -5,12 +5,10 @@ Cloud Construct
 
 Environments should include:
 
-Required Tags: 
+All resources in the environment must be tagged with the following key:value 
 
-- All resources in the environment must be tagged with the following key:value 
-
- - Owner: <f5 email address> 
- - Application: <SE-OBT-yourname>
+- Owner: <f5 email address> 
+- Application: <SE-OBT-yourname>
 
 Required Virtual Networking: 
 
@@ -47,13 +45,17 @@ Differences between the two: https://docs.microsoft.com/en-us/azure/architecture
 
 Azure:
 
-  - https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal
-  - https://docs.microsoft.com/en-us/azure/virtual-network/quick-create-portal
+- https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal
+- https://docs.microsoft.com/en-us/azure/virtual-network/quick-create-portal
 
 AWS:
 
-  - https://docs.aws.amazon.com/eks/latest/userguide/creating-a-vpc.html
+- https://docs.aws.amazon.com/eks/latest/userguide/creating-a-vpc.html
+
+For simple challenges an AWS maintained CFT can be used
+
+- https://raw.githubusercontent.com/awslabs/aws-cloudformation-templates/master/aws/services/VPC/VPC_With_Managed_NAT_And_Private_Subnet.yaml
 
 Google:
 
-  - https://cloud.google.com/vpc/docs/create-modify-vpc-networks
+- https://cloud.google.com/vpc/docs/create-modify-vpc-networks

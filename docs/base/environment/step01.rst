@@ -15,3 +15,6 @@ Amazon Web Services:
 
 Google Cloud Platform: 
   - Access directly through https://console.cloud.google.com/
+
+F5 UDF Blueprint (AWS Cloud Credentials)
+  - SE Outcome-Based Learning

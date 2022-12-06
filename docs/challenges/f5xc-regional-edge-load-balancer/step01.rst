@@ -3,7 +3,7 @@ F5XC Regional Edge Origin Pool
 
 **Objective**:
 
-Create an Origin Pool(s) with the public ip addresses of the dual NGINX Application Servers
+Create an Origin Pool(s) with the public ip addresses of the application servers hosting Juice Shop
 
 **Why**:
 

@@ -16,5 +16,5 @@ Trigger a failover and verify that the remaining device handles traffic.
 Ask yourself:
 
 - How did you trigger the failover?
-- Is there an another way to trigger the failover?
+- Is there another way to trigger the failover?
 - If so, did it work or did the alternative way not trigger the failover? If so, why?

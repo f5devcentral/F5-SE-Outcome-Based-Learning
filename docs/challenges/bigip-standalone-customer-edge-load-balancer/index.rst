@@ -1,5 +1,5 @@
-BIG-IP standalone in the Cloud
-==============================
+F5 BIG-IP standalone in the Cloud
+=================================
 
 Create a cloud BIG-IP instance
 
