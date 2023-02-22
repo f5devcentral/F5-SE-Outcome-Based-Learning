@@ -37,8 +37,8 @@ The estimated completion time of each challenge is up to 2 hours.
    :maxdepth: 1
    :caption: F5 XC Challenges
 
-   /docs/challenges/f5xc-regional-edge-waap/index
    /docs/challenges/f5xc-regional-edge-load-balancer/index
+   /docs/challenges/f5xc-regional-edge-waap/index
    /docs/challenges/f5xc-regional-edge-observability/index
    /docs/challenges/f5xc-customer-edge-load-balancer/index
    /docs/challenges/f5xc-hybrid-edge-load-balancer/index

@@ -1,7 +1,7 @@
 Create a Diagram
 ================
 
-**Outcome**: Document and vizualize your cloud deployment using a diagram 
+**Outcome**: Document and visualize your cloud deployment using a diagram 
 
 Elements that should be included in your visualization:
   - Cloud network (Subnets, Gateways, etc.)

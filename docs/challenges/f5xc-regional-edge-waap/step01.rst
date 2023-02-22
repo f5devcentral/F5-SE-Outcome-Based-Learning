@@ -15,7 +15,9 @@ Required Outcome:
 Follow the F5XC documentation 
 https://docs.cloud.f5.com/docs/how-to/app-networking
 
-Use a domain that is already defined within your tenant. do not create a new domain. 
+Use a domain that is already defined within your tenant. Most preconfigured tenants will have a delegated domain located under DNS-Management > Delegated Domain Management.
+
+.. warning:: Most websites will require a HOST header injected into the request. This can be done with Routes, HTTP Load Balancer More Options, and Service Policies.
 
 **Validation**: 
 
