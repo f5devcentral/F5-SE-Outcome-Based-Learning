@@ -8,13 +8,12 @@ Environments should include:
 All resources in the environment must be tagged with the following key:value 
 
 - Owner: <f5 email address> 
-- Application: <SE-OBT-yourname>
 
 Required Virtual Networking: 
 
-- Public subnet - Internet Connectivity
-- Private subnet - No Internet Connectivity
-- Management subnet - Internet Connectivity
+- Management subnet - Internet Inbound Connectivity
+- Public subnet - Internet Inbound Connectivity
+- Private subnet - Internet Outbound Connectivity
 
 Documentation:
 

@@ -16,6 +16,8 @@ Source: https://www.computer.org/publications/tech-news/trends/what-you-need-to-
 **How**:
 
 Create a managed k8s cluster:
+  - F5 Distributed Cloud: https://docs.cloud.f5.com/docs/services/app-stack/managed-kubernetes
+
   - Microsoft Azure: https://docs.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-portal
   
   - Amazon Web Services: https://docs.aws.amazon.com/eks/latest/userguide/create-cluster.html
