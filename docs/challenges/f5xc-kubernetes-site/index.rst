@@ -1,5 +1,5 @@
-Challenge Index
-===============
+F5XC Kubernetes Site
+====================
 
 # Create an F5XC Kubernetes site (Customer Edge in kubernetes/OpenShift)
 

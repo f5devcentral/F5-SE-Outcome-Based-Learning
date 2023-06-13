@@ -42,6 +42,7 @@ The estimated completion time of each challenge is up to 2 hours.
    /docs/challenges/f5xc-regional-edge-observability/index
    /docs/challenges/f5xc-customer-edge-load-balancer/index
    /docs/challenges/f5xc-hybrid-edge-load-balancer/index
+   /docs/challenges/f5xc-kubernetes-site/index
 
 .. toctree::
    :maxdepth: 1
